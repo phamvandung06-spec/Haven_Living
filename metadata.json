@@ -1,0 +1,6 @@
+{
+  "name": "Haven Living - Khu Đô Thị Xanh Chuẩn Sinh Thái",
+  "description": "Khu đô thị sinh thái Haven Living quy mô 19,3ha với 1.305 sản phẩm tại TP. Hồ Chí Minh, không gian sống xanh lý tưởng, nhà phố hoàn thiện chỉ từ 2,3 tỷ.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

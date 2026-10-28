@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="vi" prefix="og: http://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+
+    <title>Dự án KHU ĐÔ THỊ HAVEN LIVING</title>
+    <meta name="description" content="Dự án Haven Living là khu đô thị nhà phố được quy hoạch bài bản theo định hướng phát triển đô thị xanh, hiện đại và bền vững.">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="author" content="Địa Ốc &#193; Ch&#226;u">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com/">
+    <link rel="canonical" href="https://diaocachau.com.vn/khu-do-thi-haven-living">
+    <meta name="viewport" content="width=device-width">
+    <meta property="og:site_name" content="Dự án KHU ĐÔ THỊ HAVEN LIVING">
+    <meta property="fb:app_id" content="464024944856261">
+    <meta property="og:url" content="https://diaocachau.com.vn/khu-do-thi-haven-living">
+    <meta property="og:title" content="Dự án KHU ĐÔ THỊ HAVEN LIVING">
+    <meta property="og:image" content="https://diaocachau.com.vn/media/photo/o42-663522.jpg">
+    <meta property="og:image:alt" content="Dự án KHU ĐÔ THỊ HAVEN LIVING">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Địa Ốc &#193; Ch&#226;u">
+    <meta property="og:description" content="Dự án Haven Living là khu đô thị nhà phố được quy hoạch bài bản theo định hướng phát triển đô thị xanh, hiện đại và bền vững." itemprop="description">
+    <meta name="robots" content="follow, index">
+    <meta property="og:locale" content="vi_VN">
+
+    <link href="/theme/css/wp.css" rel="stylesheet">
+    <link href="/theme/css/wpcf7.css" rel="stylesheet">
+    <link href="/theme/css/fontawesome.css" rel="stylesheet">
+    <link href="/theme/css/bootstrap.css" rel="stylesheet">
+    <link href="/theme/css/owl-carousel.css" rel="stylesheet">
+    <link href="/lib/fancy/jquery.fancybox.min.css" rel="stylesheet">
+    
+    <link href="/theme/css/stylev6.css?v=1" rel="stylesheet">
+    <link href="/theme/css/inlinev5.css" rel="stylesheet">
+    
+
+    <link rel="shortcut icon" href="/favicon.ico" sizes="128x128" type="image/ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Quang cài theo dõi QC -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TKW8WKHT');</script>
+<!-- End Google Tag Manager -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-97MR33MLH7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-97MR33MLH7');
+</script>
+
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16812341821');
+</script></head>
+<body data-rsssl=1>
+    <div class="menu-responsive menu-default hidden-md hidden-lg">
+        <div class="menu-close"><span>MỤC LỤC</span><i class="fa fa-times"></i></div>
+        <ul id="accordion" class="accordion">
+            <li class='menu-item'><a href='/gioi-thieu' target='_self'>Giới thiệu</a></li><li class='menu-item'><a href='/du-an' target='_self'>Dự án</a></li><li class='menu-item has-dropdown'><a href='/tin-tuc'>Tin tức <i class='fa fa-angle-down'></i></a><ul class='sub-menu menu-dropdown'> <li><a href='/hoat-dong-cong-ty'>Hoạt động công ty</a></li> <li><a href='/tin-tuc-thi-truong'>Tin thị trường</a></li> <li><a href='/phong-thuy'>Phong thủy</a></li> <li><a href='/nha-dep'>Nhà Đẹp</a></li></ul></li><li class='menu-item has-dropdown'><a href='#'>Truyền thông <i class='fa fa-angle-down'></i></a><ul class='sub-menu menu-dropdown'> <li><a href='/hinh-anh'>Hình ảnh</a></li> <li><a href='/video'>Video</a></li></ul></li><li class='menu-item'><a href='/tuyen-dung' target='_self'>Tuyển dụng</a></li><li class='menu-item has-dropdown'><a href='#'>Đào tạo <i class='fa fa-angle-down'></i></a><ul class='sub-menu menu-dropdown'> <li><a href='https://acabiz.vn/login'>Học trực tuyến</a></li> <li><a href='/ky-nang'>Kỹ năng</a></li></ul></li><li class='menu-item'><a href='/lien-he' target='_self'>Liên hệ</a></li>
+        </ul>
+    </div>
+    
+    <header class="header header-bg">
+        <div class="wrap">
+            <div class="container">
+                <div class="header-inner">
+                    <div class="logo">
+                        <a href="/" title="Địa Ốc &#193; Ch&#226;u">
+                            <img src='/images/logo.png' alt="Địa Ốc &#193; Ch&#226;u" class="img-responsive center-block" height="auto">
+                        </a>
+                    </div>
+                    <nav class="menu__primary">
+                        <ul class="menu">
+                            <li class="menu-item menu-item-home"><a href="/">Trang chủ</a></li>
+                            <li class='menu-item'><a href='/gioi-thieu' target='_self'>Giới thiệu</a></li><li class='menu-item'><a href='/du-an' target='_self'>Dự án</a></li><li class='menu-item has-dropdown'><a href='/tin-tuc'>Tin tức <i class='fa fa-angle-down'></i></a><ul class='sub-menu menu-dropdown'> <li><a href='/hoat-dong-cong-ty'>Hoạt động công ty</a></li> <li><a href='/tin-tuc-thi-truong'>Tin thị trường</a></li> <li><a href='/phong-thuy'>Phong thủy</a></li> <li><a href='/nha-dep'>Nhà Đẹp</a></li></ul></li><li class='menu-item has-dropdown'><a href='#'>Truyền thông <i class='fa fa-angle-down'></i></a><ul class='sub-menu menu-dropdown'> <li><a href='/hinh-anh'>Hình ảnh</a></li> <li><a href='/video'>Video</a></li></ul></li><li class='menu-item'><a href='/tuyen-dung' target='_self'>Tuyển dụng</a></li><li class='menu-item has-dropdown'><a href='#'>Đào tạo <i class='fa fa-angle-down'></i></a><ul class='sub-menu menu-dropdown'> <li><a href='https://acabiz.vn/login'>Học trực tuyến</a></li> <li><a href='/ky-nang'>Kỹ năng</a></li></ul></li><li class='menu-item'><a href='/lien-he' target='_self'>Liên hệ</a></li>
+
+                        </ul>
+                    </nav>
+                    <div class="menu-icon hidden-sm hidden-md hidden-lg">
+                        <div class="menu-open menu-default-open"> <i class="fa fa-bars"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+
+<section class="single__project full__page">
+        <div class="project__slider">
+            <div class="gallery__wrap">
+                <div id="gallery-full" class="owl-carousel owl-theme gallery-full">
+                        <div class="gallery__item">
+                            <a href="/media/photo/o42-663522.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING" data-fancybox="group" data-caption="">
+                                <img  src='/media/photo/o42-663522.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                            </a>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/media/photo/o42-524292.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING" data-fancybox="group" data-caption="">
+                                <img  src='/media/photo/o42-524292.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                            </a>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/media/photo/o42-859969.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING" data-fancybox="group" data-caption="">
+                                <img  src='/media/photo/o42-859969.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                            </a>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/media/photo/o42-714050.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING" data-fancybox="group" data-caption="">
+                                <img  src='/media/photo/o42-714050.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                            </a>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/media/photo/o42-632593.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING" data-fancybox="group" data-caption="">
+                                <img  src='/media/photo/o42-632593.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                            </a>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/media/photo/o42-228213.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING" data-fancybox="group" data-caption="">
+                                <img  src='/media/photo/o42-228213.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                            </a>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/media/photo/o42-243938.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING" data-fancybox="group" data-caption="">
+                                <img  src='/media/photo/o42-243938.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                            </a>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/media/photo/o42-579615.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING" data-fancybox="group" data-caption="">
+                                <img  src='/media/photo/o42-579615.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                            </a>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/media/photo/o42-689550.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING" data-fancybox="group" data-caption="">
+                                <img  src='/media/photo/o42-689550.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                            </a>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/media/photo/o42-909349.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING" data-fancybox="group" data-caption="">
+                                <img  src='/media/photo/o42-909349.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                            </a>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/media/photo/o42-975151.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING" data-fancybox="group" data-caption="">
+                                <img  src='/media/photo/o42-975151.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                            </a>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/media/photo/o42-893695.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING" data-fancybox="group" data-caption="">
+                                <img  src='/media/photo/o42-893695.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                            </a>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/media/photo/o42-664980.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING" data-fancybox="group" data-caption="">
+                                <img  src='/media/photo/o42-664980.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                            </a>
+                        </div>
+                        <div class="gallery__item">
+                            <a href="/media/photo/o42-906448.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING" data-fancybox="group" data-caption="">
+                                <img  src='/media/photo/o42-906448.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                            </a>
+                        </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 col-sm-12" style="margin: 0 auto;display: block;float: unset;">
+                            <div id="gallery-thumbnail" class="owl-carousel owl-theme gallery-thumbnail">
+                                    <div class="gallery__item">
+                                        <a href="/media/photo/o42-663522.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING">
+                                            <img src='/media/photo/o42-663522.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                                        </a>
+                                    </div>
+                                    <div class="gallery__item">
+                                        <a href="/media/photo/o42-524292.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING">
+                                            <img src='/media/photo/o42-524292.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                                        </a>
+                                    </div>
+                                    <div class="gallery__item">
+                                        <a href="/media/photo/o42-859969.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING">
+                                            <img src='/media/photo/o42-859969.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                                        </a>
+                                    </div>
+                                    <div class="gallery__item">
+                                        <a href="/media/photo/o42-714050.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING">
+                                            <img src='/media/photo/o42-714050.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                                        </a>
+                                    </div>
+                                    <div class="gallery__item">
+                                        <a href="/media/photo/o42-632593.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING">
+                                            <img src='/media/photo/o42-632593.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                                        </a>
+                                    </div>
+                                    <div class="gallery__item">
+                                        <a href="/media/photo/o42-228213.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING">
+                                            <img src='/media/photo/o42-228213.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                                        </a>
+                                    </div>
+                                    <div class="gallery__item">
+                                        <a href="/media/photo/o42-243938.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING">
+                                            <img src='/media/photo/o42-243938.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                                        </a>
+                                    </div>
+                                    <div class="gallery__item">
+                                        <a href="/media/photo/o42-579615.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING">
+                                            <img src='/media/photo/o42-579615.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                                        </a>
+                                    </div>
+                                    <div class="gallery__item">
+                                        <a href="/media/photo/o42-689550.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING">
+                                            <img src='/media/photo/o42-689550.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                                        </a>
+                                    </div>
+                                    <div class="gallery__item">
+                                        <a href="/media/photo/o42-909349.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING">
+                                            <img src='/media/photo/o42-909349.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                                        </a>
+                                    </div>
+                                    <div class="gallery__item">
+                                        <a href="/media/photo/o42-975151.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING">
+                                            <img src='/media/photo/o42-975151.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                                        </a>
+                                    </div>
+                                    <div class="gallery__item">
+                                        <a href="/media/photo/o42-893695.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING">
+                                            <img src='/media/photo/o42-893695.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                                        </a>
+                                    </div>
+                                    <div class="gallery__item">
+                                        <a href="/media/photo/o42-664980.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING">
+                                            <img src='/media/photo/o42-664980.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                                        </a>
+                                    </div>
+                                    <div class="gallery__item">
+                                        <a href="/media/photo/o42-906448.jpg" title="KHU Đ&#212; THỊ HAVEN LIVING">
+                                            <img src='/media/photo/o42-906448.jpg' alt="KHU Đ&#212; THỊ HAVEN LIVING">
+                                        </a>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <main id="main" class="single__project__content" role="main">
+            <article class="single__project__item">
+                <div class="container">
+                    <div id='breadcrumbs' class='breadcrumbs'><ul class='breadcrums' aria-label='breadcrumbs' itemscope itemtype='http://schema.org/BreadcrumbList'> <li class='breadcrumbs-item' itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'><a href='/' itemprop='item'><span itemprop='name'>Địa Ốc Á Châu</span></a><meta itemprop='position' content='1'></li><li class='breadcrumbs-item' itemprop='itemListElement' itemscope itemtype='http://schema.org/ListItem'><a href='/du-an' itemprop='item'><span itemprop='name'>Dự án</span></a><meta itemprop='position' content='2'></li></ul></div>
+                    <header class="entry-header">
+                        <div class="row no-margin">
+                            <div class="col-md-12">
+                                <h1 class="h1-title">KHU Đ&#212; THỊ HAVEN LIVING</h1>
+                                <h3><i class="fa fa-map-marker"></i> Phường Ch&#225;nh Ph&#250; H&#242;a, Tp Hồ Ch&#237; Minh</h3>
+                            </div>
+                            
+                        </div>
+                    </header>
+                </div>
+                <div id="project__info" class="project__info">
+                    <div class="container">
+                    <ul>
+                            <li class="col"><p class="project__info__price">Quy mô: <strong>19,3ha / 1305 sản phẩm</strong></p></li>
+                                                    <li class="col"><p>Loại hình: <a href="/nha-pho"><strong>Nh&#224; phố Ho&#224;n thiện</strong></a></p></li>
+                                                    <li class="col"><p>CĐT: <strong>ĐỊA ỐC B&#204;NH MINH</strong></p></li>
+                    </ul>
+                    </div>
+                </div>
+               
+                        <div>
+                            <div>
+                        <div class="entry-content rte">
+                            <h2 style="text-align: center;"><span style="font-size:28px;"><span style="color:#e67e22;">Khu Đ&ocirc; Thị Haven Living &ndash; Kiến Tạo Gi&aacute; Trị Sống Hiện Đại</span></span></h2>
+
+<p style="text-align: justify;"><strong>Haven Living</strong> l&agrave; khu đ&ocirc; thị nh&agrave; phố được quy hoạch đồng bộ theo định hướng <strong>đ&ocirc; thị xanh, hiện đại v&agrave; bền vững</strong>, mang đến kh&ocirc;ng gian sống chất lượng với hạ tầng ho&agrave;n thiện, cảnh quan xanh v&agrave; hệ thống tiện &iacute;ch đa dạng. Dự &aacute;n sở hữu vị tr&iacute; kết nối thuận tiện đến c&aacute;c khu c&ocirc;ng nghiệp, trung t&acirc;m h&agrave;nh ch&iacute;nh, trường học, bệnh viện v&agrave; c&aacute;c tiện &iacute;ch thiết yếu, đ&aacute;p ứng mọi nhu cầu sinh hoạt của cư d&acirc;n.</p>
+
+<p style="text-align: justify;">C&aacute;c sản phẩm tại <a href="https://diaocachau.com.vn/khu-do-thi-haven-living">Dự &aacute;n&nbsp;<strong>Haven Living</strong></a> được thiết kế hiện đại, tối ưu c&ocirc;ng năng tr&ecirc;n nhiều diện t&iacute;ch kh&aacute;c nhau, ph&ugrave; hợp cho cả nhu cầu an cư v&agrave; kinh doanh. B&ecirc;n cạnh đ&oacute;, dự &aacute;n c&oacute; <strong>ph&aacute;p l&yacute; minh bạch</strong>, quy hoạch b&agrave;i bản c&ugrave;ng hệ thống tiện &iacute;ch nội khu ho&agrave;n chỉnh, g&oacute;p phần x&acirc;y dựng cộng đồng cư d&acirc;n văn minh v&agrave; an to&agrave;n.</p>
+
+<p data-is-last-node="" data-is-only-node="" style="text-align: justify;">Kh&ocirc;ng chỉ l&agrave; nơi an cư l&yacute; tưởng, <strong>Haven Living</strong> c&ograve;n sở hữu tiềm năng gia tăng gi&aacute; trị nhờ vị tr&iacute; chiến lược, hưởng lợi từ tốc độ đ&ocirc; thị h&oacute;a v&agrave; sự ph&aacute;t triển mạnh mẽ của c&aacute;c khu c&ocirc;ng nghiệp l&acirc;n cận, trở th&agrave;nh lựa chọn hấp dẫn cho cả kh&aacute;ch h&agrave;ng ở thực v&agrave; nh&agrave; đầu tư.</p>
+
+<p><img alt="" src="/media/uploads/uploads/2a.png" style="width: 1200px; height: 600px;" /></p>
+
+                        </div>
+                        
+                         <div class="entry-content rte">
+                                <div id="tong-quan" class="box-row">
+                                    <div class="content">
+                                        <h3><span style="font-size:22px;"><span style="color:#e67e22;">Tổng quan dự &aacute;n khu đ&ocirc; thị Haven Living</span></span></h3>
+
+<table border="1" cellpadding="1" cellspacing="1">
+	<tbody>
+		<tr>
+			<td><strong>T&ecirc;n thương mại:</strong>&nbsp;<b>Khu đ&ocirc; thị Haven Living</b></td>
+			<td><strong>Quy m&ocirc;:</strong>&nbsp;193.319,7 m&sup2; (19,3 ha)</td>
+		</tr>
+		<tr>
+			<td><strong>T&ecirc;n quy hoạch:</strong>&nbsp;Khu nh&agrave; ở B&igrave;nh Minh</td>
+			<td><strong>Diện t&iacute;ch đa dạng:&nbsp;</strong>Đa dạng từ 60-100 m&sup2;</td>
+		</tr>
+		<tr>
+			<td><strong>Vị tr&iacute;:</strong>&nbsp;Phường Ch&aacute;nh ph&uacute; h&ograve;a, Tp Hồ Ch&iacute; Minh</td>
+			<td><strong>Số lượng</strong>: 1305 sản phẩm đất nền v&agrave; nh&agrave; phố</td>
+		</tr>
+		<tr>
+			<td><strong>Chủ đầu tư:</strong>&nbsp;CTY TNHH TƯ VẤN ĐẦU TƯ &amp; PH&Aacute;T TRIỂN ĐỊA ỐC B&Igrave;NH MINH</td>
+			<td><strong>Loại h&igrave;nh sản phẩm:</strong>&nbsp;Đất nền, nh&agrave; ở x&atilde; hội, nh&agrave; ở thương mại</td>
+		</tr>
+		<tr>
+			<td><strong>Ph&acirc;n phối độc quyền</strong>: Địa Ốc &Aacute; Ch&acirc;u</td>
+			<td><strong>Gi&aacute; b&aacute;n:</strong>&nbsp;2,3 Tỷ cho nh&agrave; 1 trệt 2 lầu ho&agrave;n thiện</td>
+		</tr>
+		<tr>
+			<td><strong>Mật độ x&acirc;y dựng:</strong>&nbsp;48%</td>
+			<td><strong>Ph&aacute;p l&yacute;:</strong>&nbsp;Quy hoạch 1/500</td>
+		</tr>
+		<tr>
+			<td><strong>Hạ tầng nội khu:</strong>&nbsp;Điện &acirc;m, nước m&aacute;y, Đường trải nhựa 12 &ndash; 22m.</td>
+			<td><strong>Mật độ x&acirc;y dựng:&nbsp;</strong>59,5%</td>
+		</tr>
+	</tbody>
+</table>
+
+<div class="notebox-red2">
+<h3>4 l&yacute; do n&ecirc;n đầu tư v&agrave;o khu đ&ocirc; thị Haven Living</h3>
+
+<p><strong>🔰 Vị tr&iacute; đắc địa:</strong>&nbsp;<strong>Haven Living</strong>&nbsp;toạ lạc nằm ngay khu đ&ocirc;ng d&acirc;n cư của th&agrave;nh phố với nhiều tiện &iacute;ch v&agrave; dịch vụ, v&igrave; vậy việc đầu tư v&agrave;o dự &aacute;n c&oacute; thể gi&uacute;p nh&agrave; đầu tư tận dụng được lợi thế của vị tr&iacute; đắc địa đ&oacute;.</p>
+
+<p><strong>🔰 Giao th&ocirc;ng:</strong>&nbsp;Cư d&acirc;n sống tại Haven Living kh&aacute; thuận tiện kết nối khu vực, nằm giữa 3 tuyến đường giao th&ocirc;ng li&ecirc;n kết v&ugrave;ng Đồng Nai &ndash; HCM &ndash; B&igrave;nh Dương &ndash; B&igrave;nh Phước &ndash; T&acirc;y Nguy&ecirc;n l&agrave; DT741, Đường V&agrave;nh Đai 4, đường song h&agrave;nh đường sắt.</p>
+
+<p><strong>🔰 Tiềm năng tăng gi&aacute;:</strong>&nbsp;Dự &aacute;n Haven Living đang được x&acirc;y dựng v&agrave; ph&aacute;t triển mạnh mẽ, n&ecirc;n tiềm năng tăng gi&aacute; của c&aacute;c sản phẩm tại đ&acirc;y rất cao.</p>
+
+<p><strong>🔰 Cơ hội đầu tư đa dạng:</strong>&nbsp;Nh&agrave; đầu tư c&oacute; thể chọn sản phẩm nh&agrave; phố hoặc đầu tư v&agrave;o c&aacute;c dự &aacute;n đất nền, gi&uacute;p nh&agrave; đầu tư c&oacute; được nhiều cơ hội đầu tư đa dạng.</p>
+</div>
+
+                                    </div>
+                                </div>
+                                                            <div id="vi-tri" class="box-row">
+                                    <div class="content">
+                                        <h3><span style="color:#e67e22;">VỊ TR&Iacute; DỰ &Aacute;N HAVEN LIVING</span></h3>
+
+<p style="text-align: justify;"><strong>Dự &aacute;n Haven Living</strong> sở hữu vị tr&iacute; đắc địa ngay trung t&acirc;m khu vực ph&aacute;t triển năng động của B&igrave;nh Dương, nơi hội tụ hạ tầng giao th&ocirc;ng hiện đại v&agrave; tốc độ đ&ocirc; thị h&oacute;a h&agrave;ng đầu khu vực. Từ dự &aacute;n, cư d&acirc;n dễ d&agrave;ng kết nối với c&aacute;c tuyến đường huyết mạch như <strong>ĐT741</strong>, <strong>VSIP 2</strong> v&agrave; <strong>VSIP 2 Mở Rộng</strong>, gi&uacute;p việc di chuyển đến c&aacute;c khu vực trọng điểm trở n&ecirc;n nhanh ch&oacute;ng v&agrave; thuận tiện.</p>
+
+<p style="text-align: justify;">Nhờ vị tr&iacute; chiến lược, <strong>dự &aacute;n Haven Living</strong> chỉ mất thời gian ngắn để tiếp cận <strong>Th&agrave;nh phố Mới B&igrave;nh Dương</strong>, <strong>TP. Thủ Dầu Một</strong>, c&aacute;c khu c&ocirc;ng nghiệp lớn như VSIP 2, Mỹ Phước v&agrave; nhiều trung t&acirc;m thương mại, gi&aacute;o dục, y tế hiện đại. Đồng thời, tuyến giao th&ocirc;ng li&ecirc;n kết th&ocirc;ng suốt cũng gi&uacute;p cư d&acirc;n dễ d&agrave;ng kết nối với <strong>TP.HCM</strong> v&agrave; c&aacute;c tỉnh th&agrave;nh trong v&ugrave;ng kinh tế trọng điểm ph&iacute;a Nam.</p>
+
+<p style="text-align: justify;">Với vị tr&iacute; trung t&acirc;m, hệ thống hạ tầng đồng bộ v&agrave; khả năng kết nối linh hoạt, <strong>dự &aacute;n Haven Living</strong> kh&ocirc;ng chỉ kiến tạo một m&ocirc;i trường an cư hiện đại, tiện nghi m&agrave; c&ograve;n mở ra cơ hội đầu tư bền vững. Đ&acirc;y l&agrave; lựa chọn l&yacute; tưởng d&agrave;nh cho những kh&aacute;ch h&agrave;ng mong muốn sở hữu bất động sản c&oacute; gi&aacute; trị gia tăng theo thời gian, đồng thời tận hưởng cuộc sống thuận tiện ngay giữa khu vực ph&aacute;t triển s&ocirc;i động bậc nhất B&igrave;nh Dương.</p>
+
+<p><img alt="" src="/media/uploads/uploads/7b.png" style="width: 1200px; height: 600px;" /></p>
+
+                                    </div>
+                                </div>
+                                                            <div id="tien-ich" class="box-row">
+                                    <div class="content">
+                                        <h3><span style="color:#e67e22;">TIỆN &Iacute;CH DỰ &Aacute;N HAVEN LIVING</span></h3>
+
+<p dir="ltr" style="text-align: justify;">Haven Living sở hữu vị tr&iacute; chiến lược với hệ thống tiện &iacute;ch hiện hữu chỉ trong v&agrave;i ph&uacute;t di chuyển, mang đến cuộc sống tiện nghi v&agrave; gi&aacute; trị đầu tư bền vững.</p>
+
+<p dir="ltr" style="text-align: justify;">Từ dự &aacute;n, cư d&acirc;n chỉ mất <strong>3 ph&uacute;t</strong> để đến <strong>Chợ Ch&aacute;nh Lưu, B&aacute;ch H&oacute;a Xanh, Trường Tiểu học v&agrave; Trường Trung học</strong>. <strong>UBND phường</strong> c&aacute;ch khoảng <strong>4 ph&uacute;t</strong>, trong khi <strong>KCN VSIP 2</strong> chỉ <strong>5 ph&uacute;t</strong> v&agrave; <strong>KCN Mỹ Phước 3</strong> khoảng <strong>7 ph&uacute;t</strong>.</p>
+
+<p dir="ltr" style="text-align: justify;">Đặc biệt, <strong>Th&agrave;nh phố Mới B&igrave;nh Dương</strong> chỉ c&aacute;ch <strong>8 ph&uacute;t</strong>, gi&uacute;p kết nối nhanh ch&oacute;ng đến trung t&acirc;m h&agrave;nh ch&iacute;nh, thương mại v&agrave; dịch vụ hiện đại. Với lợi thế giao th&ocirc;ng thuận lợi c&ugrave;ng hệ thống tiện &iacute;ch đa dạng, Haven Living l&agrave; lựa chọn l&yacute; tưởng cho an cư, kinh doanh v&agrave; đầu tư l&acirc;u d&agrave;i.</p>
+
+<p dir="ltr"><img alt="" src="/media/uploads/uploads/chatgpt image 14_52_29 22 thg 7, 2026.png" style="width: 1200px; height: 787px;" /></p>
+
+                                    </div>
+                                </div>
+                        </div>
+                        
+                         <div class="entry-content rte">
+                                <div id="mat-bang" class="box-row">
+                                    <div class="content">
+                                        <h2><span style="color:#e67e22;">MẶT BẰNG DỰ &Aacute;N</span></h2>
+
+<p style="text-align: justify;"><strong>Haven Living</strong> l&agrave; khu đ&ocirc; thị được quy hoạch b&agrave;i bản tr&ecirc;n quỹ đất rộng <strong>193.319,7 m&sup2; (tương đương 19,3 ha)</strong> với <strong>mật độ x&acirc;y dựng khoảng 59,5%</strong>, c&acirc;n bằng giữa kh&ocirc;ng gian sống, hệ thống tiện &iacute;ch v&agrave; mảng xanh. Dự &aacute;n cung cấp ra thị trường khoảng <strong data-is-only-node="">1.305 sản phẩm</strong>, bao gồm <strong>nh&agrave; phố liền kề, shophouse thương mại v&agrave; nh&agrave; ở x&atilde; hội</strong>, đ&aacute;p ứng đa dạng nhu cầu an cư cũng như đầu tư.</p>
+
+<p style="text-align: justify;">C&aacute;c sản phẩm tại <strong>Haven Living</strong> c&oacute; diện t&iacute;ch đất linh hoạt từ <strong>60 &ndash; 120 m&sup2;</strong>, được thiết kế hiện đại, tối ưu c&ocirc;ng năng sử dụng v&agrave; ph&ugrave; hợp với nhiều nh&oacute;m kh&aacute;ch h&agrave;ng. Đặc biệt, c&aacute;c căn nh&agrave; được <strong>b&agrave;n giao ho&agrave;n thiện</strong> với <strong>mức gi&aacute; dự kiến chỉ từ 2,3 tỷ đồng/căn</strong>, mở ra cơ hội sở hữu bất động sản chất lượng với chi ph&iacute; hợp l&yacute;.</p>
+
+<p data-is-last-node="" data-is-only-node="" style="text-align: justify;">Với quy m&ocirc; lớn, quy hoạch đồng bộ, ph&aacute;p l&yacute; minh bạch c&ugrave;ng vị tr&iacute; kết nối thuận tiện, <strong>Haven Living</strong> hứa hẹn trở th&agrave;nh khu đ&ocirc; thị đ&aacute;ng sống v&agrave; l&agrave; điểm đến đầu tư đầy tiềm năng tại khu vực B&igrave;nh Dương.</p>
+
+<p data-is-last-node="" data-is-only-node=""><img alt="" src="/media/uploads/uploads/sơ đồ haven living.jpg" style="width: 1200px; height: 849px;" /></p>
+
+                                    </div>
+                                </div>
+                         
+                                                            <div id="chinh-sach" class="box-row">
+                                    <div class="content">
+                                        <h3><span style="color:#e67e22;">Ch&iacute;nh S&aacute;ch Ưu Đ&atilde;i Haven Living</span></h3>
+
+<p>Sở hữu <strong>Haven Living</strong> h&ocirc;m nay, kh&aacute;ch h&agrave;ng kh&ocirc;ng chỉ an t&acirc;m về chất lượng dự &aacute;n m&agrave; c&ograve;n được hưởng <strong>ch&iacute;nh s&aacute;ch b&aacute;n h&agrave;ng hấp dẫn</strong>, gi&uacute;p tối ưu d&ograve;ng tiền v&agrave; gia tăng hiệu quả đầu tư.</p>
+
+<div class="notebox">
+<p>🏡 <strong>Chiết khấu hấp dẫn 5% &ndash; 10%</strong> theo gi&aacute; trị hợp đồng, gi&uacute;p giảm đ&aacute;ng kể chi ph&iacute; sở hữu.</p>
+
+<p>💰 <strong>Ưu đ&atilde;i đặc biệt cho kh&aacute;ch h&agrave;ng thanh to&aacute;n sớm</strong>, mang đến nhiều lợi &iacute;ch t&agrave;i ch&iacute;nh v&agrave; tối ưu nguồn vốn.</p>
+
+<p>🔑 <strong>Cam kết thu&ecirc; lại trong 2 năm</strong> sau khi b&agrave;n giao, tạo nguồn thu ổn định v&agrave; n&acirc;ng cao gi&aacute; trị đầu tư.</p>
+
+<p>📈 <strong>Hỗ trợ l&atilde;i suất cố định chỉ 8%/năm trong 2 năm</strong>, gi&uacute;p kh&aacute;ch h&agrave;ng dễ d&agrave;ng c&acirc;n đối t&agrave;i ch&iacute;nh.</p>
+
+<p>📄 <strong>Hỗ trợ ho&agrave;n thiện hồ sơ vay vốn</strong>, quy tr&igrave;nh nhanh ch&oacute;ng, đơn giản v&agrave; thuận tiện.</p>
+</div>
+
+<p data-is-last-node="" data-is-only-node="">✨ Với <strong>ph&aacute;p l&yacute; minh bạch</strong>, <strong>hạ tầng đồng bộ</strong>, <strong>tiện &iacute;ch hiện đại</strong> c&ugrave;ng <strong>ch&iacute;nh s&aacute;ch ưu đ&atilde;i vượt trội</strong>, <strong>Haven Living</strong> l&agrave; lựa chọn l&yacute; tưởng cho kh&aacute;ch h&agrave;ng an cư v&agrave; đầu tư sinh lời bền vững.</p>
+
+<p data-is-last-node="" data-is-only-node=""><img alt="" src="/media/uploads/uploads/chatgpt image 10_20_04 11 thg 7, 2026.png" style="width: 1200px; height: 480px;" /></p>
+
+                                    </div>
+                                </div>
+                                                            <div id="hinh-anh" class="box-row">
+                                    <div class="content">
+                                        <div class="_btn btn-01">Một số h&igrave;nh ảnh thực tế tại dự &aacute;n Haven Living</div>
+
+<table style="width:100%;">
+	<tbody>
+		<tr>
+			<td><img alt="" src="/media/uploads/uploads/1785985332331-1555873565258844850-g46859_X2.jpg" style="width: 1200px; height: 683px;" /></td>
+			<td><img alt="" src="/media/uploads/uploads/dji_0629.jpg" style="width: 1200px; height: 675px;" /></td>
+		</tr>
+		<tr>
+			<td><img alt="" src="/media/uploads/uploads/1785985331877-1555873565258844850-g46859.jpg" style="width: 1200px; height: 677px;" /></td>
+			<td><img alt="" src="/media/uploads/uploads/dji_0634.jpg" style="width: 1200px; height: 675px;" /></td>
+		</tr>
+		<tr>
+			<td><img alt="" src="/media/uploads/uploads/z8023566034227-256fd23a2eb27e4cf6458a826.jpg" style="width: 1200px; height: 675px;" /></td>
+			<td><img alt="" src="/media/uploads/uploads/dji-0618_m9.jpg" style="width: 1200px; height: 675px;" /></td>
+		</tr>
+	</tbody>
+</table>
+
+                                    </div>
+                                </div>
+                                                    </div>
+
+                        <div class="box-form">
+    <div class="bg"></div>
+    <div class="container">
+        <h3 class="header__title" style="font-size: 16px;margin-bottom: 12px;text-align: center;color: #da0802;color: #fff;margin-top: 0px;">NHẬN TƯ VẤN VỀ DỰ ÁN</h3>
+        <div style="max-width:820px;margin:0 auto;color:#fff;text-align:center;">
+            <p>Quý để lại thông tin liên hệ bên dưới để nhận tư vấn về &nbsp;<br /><b>Dự án KHU Đ&#212; THỊ HAVEN LIVING</b></p>
+            <p>Hoặc liên hệ <a href="tel:0989 661 661" style="font-weight: bold;color: #00a450;background: #e3e31c;padding: 1px 2px;;">0989 661 661</a> để nhận tư vấn trực tiếp.</p>
+        </div>
+        <div role="form" class="wpcf7 form-with-info" lang="vi" dir="ltr">
+            <form action="#" method="post" class="wpcf7-form init form-send" novalidate="novalidate">
+                <input name="__RequestVerificationToken" type="hidden" value="nju2iqaJ4ieu9u4-KEs5gbrM1YHaiuGyHqEjN1qwEJQ1SUN81szK4xc4fkysFhMEWPVeeZ1oJRufe705eLhWKOV0mJ7ZcQblTgdg7wwnwIA1" />
+                <input type="hidden" name="refer" value="Form dự án" />
+                <input type="hidden" name="url" value="http://diaocachau.com.vn/khu-do-thi-haven-living" />
+                <input type="hidden" name="uid" value="1">
+                <div class="row contact-form">
+                    <div class="col-md-3  col-sm-6 col-xs-6">
+                        <div class="input-group"> 
+                             
+                            <span class="wpcf7-form-control-wrap your-name"><input type="text" name="fullname" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" aria-required="true" aria-invalid="false" placeholder="Họ và Tên" /></span>
+                        </div>
+                    </div>
+                    <div class="col-md-3   col-sm-6 col-xs-6">
+                        <div class="input-group"> 
+                             
+                            <span class="wpcf7-form-control-wrap tel"><input type="tel" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel form-control" aria-required="true" aria-invalid="false" placeholder="Số Điện thoại" /></span>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="input-group"> 
+                         
+                        <span class="wpcf7-form-control-wrap your-message"><input type="email" name="message" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" aria-required="true" aria-invalid="false" placeholder="Ghi chú tư vấn, báo giá..." /></span></div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6"> <input type="submit" value="Gửi thông tin" class="wpcf7-form-control wpcf7-submit btn btn-submit" /></div>
+                </div>
+                <div class="loader" style="display:none;"><img src="/theme/img/ajax-loader.gif" alt="Đang gửi..." /></div>
+                <div class="clear"></div>
+                <div class="form-alert" style="display:none;"></div>
+            </form>
+        </div>
+    </div>
+</div>
+                          <div class="box-rating">
+                            <div class="darates clearfix">
+                                <em class="rate_row" id="rate_row"></em>
+                                <em class="rate_row_result"></em>
+                                <em id="rate_row_cmd">
+                                        <em><b>3.6/5</b> - <em> từ <b> 5</b></em> lượt đánh giá</em>
+                                </em>
+                                <div id="valore"></div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </article>
+        </main>
+    <div class="related__project">
+        <div class="container">
+            <div class="related__header">
+                <h3 class="related__heading"> Dự án lân cận:</h3>
+            </div>
+            <div class="related__list">
+                <div class="row">
+                        <div class="post col-md-4 col-sm-4 col-xs-6">
+                            <article class="news__item">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                        <div class="cover__image">
+                                            <a href="/minh-thang-central-land" class="transition--thumbnail">
+                                                <img src='/media/photo/o33-217442.jpg' class="img-responsive center-block wp-post-image" alt="MINH THẮNG CENTRAL LAND" />
+                                            </a>
+                                        </div>
+
+                                        <div class="news__meta">
+                                            <h3 class="news__title"><a href="/minh-thang-central-land" rel="bookmark">MINH THẮNG CENTRAL LAND</a></h3>
+                                            <ul class="news__info02">
+                                                <li class="info__localtion"><i class="fa fa-map-marker"></i> <span>Ấp Minh Thắng 1, x&#227; Nha B&#237;ch, Tỉnh Đồng Nai</span></li>
+                                            </ul>
+                                            <ul class="news__info01 clearfix">
+                                                    <li class="info__price"><span>50 sản phẩm</span></li>
+                                                
+                                            </ul>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="post col-md-4 col-sm-4 col-xs-6">
+                            <article class="news__item">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                        <div class="cover__image">
+                                            <a href="/kdc-cao-ba-quat-chon-thanh" class="transition--thumbnail">
+                                                <img src='/media/photo/o32-494290.jpg' class="img-responsive center-block wp-post-image" alt="KDC Cao B&#225; Qu&#225;t - Chơn Th&#224;nh" />
+                                            </a>
+                                        </div>
+
+                                        <div class="news__meta">
+                                            <h3 class="news__title"><a href="/kdc-cao-ba-quat-chon-thanh" rel="bookmark">KDC Cao B&#225; Qu&#225;t - Chơn Th&#224;nh</a></h3>
+                                            <ul class="news__info02">
+                                                <li class="info__localtion"><i class="fa fa-map-marker"></i> <span>Phường Minh Hưng - Tỉnh Đồng Nai</span></li>
+                                            </ul>
+                                            <ul class="news__info01 clearfix">
+                                                    <li class="info__price"><span>56 sản phẩm/ 1ha</span></li>
+                                                
+                                            </ul>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="post col-md-4 col-sm-4 col-xs-6">
+                            <article class="news__item">
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12 col-md-12">
+                                        <div class="cover__image">
+                                            <a href="/5f-amara" class="transition--thumbnail">
+                                                <img src='/media/photo/o37-383285.jpg' class="img-responsive center-block wp-post-image" alt="5F AMARA" />
+                                            </a>
+                                        </div>
+
+                                        <div class="news__meta">
+                                            <h3 class="news__title"><a href="/5f-amara" rel="bookmark">5F AMARA</a></h3>
+                                            <ul class="news__info02">
+                                                <li class="info__localtion"><i class="fa fa-map-marker"></i> <span>Thị trấn Lai Uy&#234;n, huyện B&#224;u B&#224;ng, tỉnh B&#236;nh Dương.</span></li>
+                                            </ul>
+                                            <ul class="news__info01 clearfix">
+                                                    <li class="info__price"><span>30 ha/ 1709 nền</span></li>
+                                                
+                                            </ul>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+
+
+ 
+
+
+
+    <footer class="footer">
+    
+    <div class="footer-main">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                        <div>
+                            
+                            <p> <span class="company">CÔNG TY CỔ PHẦN PHÁT TRIỂN ĐỊA ỐC Á CHÂU</span></p>
+                            <p class="address"> <span><u>Trụ sở:</u><br />Số 493 Đường Phạm Ngọc Thạch, Phường Bình Dương, TP Hồ Chí Minh</span></p>
+                            <p class="address"> <span><u>Chi nhánh:</u><br />220 Phạm Văn Đồng, Phường Hạnh Thông, TP Hồ Chí Minh</span></p>
+                            <p>
+                                <span>
+                                    <i class="fa fa-phone"></i> Điện thoại: <a href="tel:0989 661 661">0989 661 661</a>                                 </span>
+                            </p>
+                            <p>
+                                <span><i class="fa fa-envelope"></i> Email: <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="ea89998182c48e838b85898b89828b9faa8d878b8386c4898587">[email&#160;protected]</a></span>
+                            </p>
+                            <p>
+                                <span><i class="fa fa-globe"></i> Website: https://diaocachau.com.vn</span>
+                            </p>
+                            
+                        </div>
+                        <div class="contact-social">
+                            <h3 class="title">Follow chúng tôi</h3>
+                            <div class="social-icons follow-icons clearfix">
+                                <a href="https://www.facebook.com/diaocachau/" target="_blank" data-label="Facebook" rel="noopener noreferrer nofollow" class="icon plain facebook"> <i class="fa-facebook fa"></i></a>
+                                <a href="https://www.youtube.com/channel/UC7KsVXDKtm1q2textTzH6Gg" target="_blank" rel="noopener noreferrer nofollow" data-label="YouTube" class="icon plain youtube"> <i class="fa fa-youtube-play"></i> </a>
+                                <a href="https://www.tiktok.com/@diaocachaurealestate" target="_blank" data-label="tiktok" rel="noopener noreferrer nofollow" class="icon plain tiktok"><svg fill="#ffffff" viewBox="0 0 512 512" id="icons" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M412.19,118.66a109.27,109.27,0,0,1-9.45-5.5,132.87,132.87,0,0,1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14,23.9,350,16,350.13,16H267.69V334.78c0,4.28,0,8.51-.18,12.69,0,.52-.05,1-.08,1.56,0,.23,0,.47-.05.71,0,.06,0,.12,0,.18a70,70,0,0,1-35.22,55.56,68.8,68.8,0,0,1-34.11,9c-38.41,0-69.54-31.32-69.54-70s31.13-70,69.54-70a68.9,68.9,0,0,1,21.41,3.39l.1-83.94a153.14,153.14,0,0,0-118,34.52,161.79,161.79,0,0,0-35.3,43.53c-3.48,6-16.61,30.11-18.2,69.24-1,22.21,5.67,45.22,8.85,54.73v.2c2,5.6,9.75,24.71,22.38,40.82A167.53,167.53,0,0,0,115,470.66v-.2l.2.2C155.11,497.78,199.36,496,199.36,496c7.66-.31,33.32,0,62.46-13.81,32.32-15.31,50.72-38.12,50.72-38.12a158.46,158.46,0,0,0,27.64-45.93c7.46-19.61,9.95-43.13,9.95-52.53V176.49c1,.6,14.32,9.41,14.32,9.41s19.19,12.3,49.13,20.31c21.48,5.7,50.42,6.9,50.42,6.9V131.27C453.86,132.37,433.27,129.17,412.19,118.66Z"></path></g></svg></a>
+                                <a href="https://zalo.me/2642909754794097414" target="_blank" data-label="zalo" rel="noopener noreferrer nofollow" class="icon plain zalo"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEbElEQVR4nO2Yj2sbZRjHr/qXTJi9q7K6OkU7XEXBCYIKm+jQjdxt1s0yp2UwGXTdSkfRDjcV3UCxyBTqj+HEMrC1ndPZHxuiXR1NOzvX1nZtmve9ND+bn195bk16SXNpLtckBfPAF8LlyeX7ufd53/e5VxBKUYpS/P8CQJnL5XqQc97IGLvIOR/hnHs558hSlDtMv2WMHVNVtaowzl/A3Rtexc6Oyx7VhNlsZXc6ndvp4eTF+717sE6Ucen0ef9qG0eK+lRVXbeq5itseEKS4d57MgTG8moeJMbYHOe8ZlXMl9uwVZKx8HBdDGMTrryb50sQQcsQkg3rRQWqpACf/OArmHmuG4ncy6kRd4kK+sl8TX0UM47CmudL6s1pYlfIkMk86aPv8j5xkUlOp3ObaQBRwXUyv6EWGJtQiwrAOR82ZV5SsCX+9He1hIptHiRVVTeaAWhZK+XDF8UYO5p9+ci4FAfouuJeKwDdZgAm4wCjtwq39vPMspspIX8cIN3y+fLxsPadkQZHVoamvBPtATMAHjMACTOOueU3a7vgw/GzgSQ9/XZEy2/4bCGR1zXgxgfn/Pii04vxKRWdAx4M3XAZAnQt5tP90618OQFMTK+8hF7o9eD+PYD8bghzTo5ZB8e+U8GkUaFWRG9a/3k2Tf6j+2P4ccBjHeDGeOZy6B+aR9XeGJ45HEnAtrYHULEbOH3eh4kpFVf+msdzDRFDgFaD/Oo3qP9SrQFcGzUGoAlObcZjb0Zhv7mUt/lAFNS56nMHhuYNATZnyKdysgTQd20+rfmpGRXPNkTwwGsx9A4mL7WVtUBj29JcINEcMAKozJBPc8ISwLcXvcvMOxlH7Xsh3Lcb+P6X5Dol7WgO4/H6qFYO8Wu0IRoB7MiQ/9NVtzWA1vblOzGtNPTd80ci2hPS66turzYvqIciU0faFjRYqnEjgH6D/Lr3g9YncepNaI3PtAfsOxlMmKInW1kbw5MHo9qDeGR/LGFa/5kn5QNb3oriRLt/2RKeE8BTh6JmNpu8SsgFINuddW0ByHDrAWg4i22ec+4zAzCiB6CaTNdSFFKMsVtmAHpSy+jTDl+xAXqyB1BwLBWg+kAM/0wW79WSMdaUNYBoQ1W6JbL+42AxAaqzBhAElEky7KkAtPP+e7vwo8AYGxTMRoWM7akA1DLPOIpSRq+YBlgchT49wM6WcMHND99U/875xJpOpCUZc2SeWoLUrnNsXMUf9vTdqlVNTqv48JwvcPhMaJNgJUQZNaKC4MEzQXRfdaPjNw9OfePHS81hbU4Q3NZDEdCxO7XAVkzPOrj2FkbN4kN10QCdilsyr4eIj0QmUSP2YlMYTZ8H8HWPFz//7sbQqEsDuz17B44OCegti67/+qcbX3Z60Xw2AKU1hE2v33ntFGXwVTOfUk69K0FYlozL62XcI+QnUFauYJukYHi1jYsKrosydtF/CIUIScFGScZRUUE3AYkyPCYMByQZ0/RbUcE75TZUF8x4KUpRCmFNxX8QRqbiSsmKAQAAAABJRU5ErkJggg==" alt="zalo"></a>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                <div class="footer-links">
+
+                    <div class="inner">
+                        <h3 class="title">Thông tin</h3>
+                        <ul>
+                            <li><a href="/gioi-thieu">Giới thiệu</a></li>
+                            <li><a href="/lien-he">Liên hệ</a></li>
+                            <li><a href="/tuyen-dung">Tuyển dụng</a></li>
+                            <li><a href="/tin-tuc">Tin tức</a></li>
+                            <li><a href="https://acabiz.vn/login" rel="nofollow" target="_blank">Đào tạo nội bộ</a></li>
+                        </ul>
+                        <h3 class="title" style="margin-top: 20px;">THƯ VIỆN</h3>
+                        <ul>
+                            <li><a href="/ban-tin">Bản tin</a></li>
+                            <li><a href="/hinh-anh">Hình ảnh</a></li>
+                            <li><a href="/video">Video</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="inner">
+                        <h3 class="title">Dự án</h3>
+                        <ul>
+                            <li><a href="/5f-amara">5F AMARA</a></li>
+                            <li><a href="/5f-the-aura">5F THE AURA</a></li>
+                            <li><a href="/estella-city">ESTELLA CITY</a></li>
+                            <li><a href="/khu-dan-cu-tan-thanh">KDC TÂN THÀNH</a></li>
+                            <li><a href="/bau-bang-central-land">Bàu Bàng Central Land</a></li>
+                            <li><a href="/du-an" class="more">Xem tất cả <i class="fa fa-caret-right"></i></a></li>
+                        </ul>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+
+                <div class="inner">
+                    <img src="/images/logo-footer.png" class="logo">
+                    <div class="pull-left">© 2017–2026 Địa Ốc Á Châu. All rights reserved.</div>
+                    <div class="tern pull-right"> <a href="/dieu-khoan-su-dung">Điều khoản </a> | <a href="/chinh-sach-bao-mat">Chính sách</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <a href="javascript:;" class="back-to-top" style="display: block;"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
+    
+
+    
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/theme/js/jquery-2.1.4.min.js"></script>
+    <script defer src="/theme/js/autoptimize.js?v=4"></script>
+    <script defer src="/theme/js/main.js?v=c3"></script>
+    <script src="/lib/fancy/jquery.fancybox.min.js"></script>
+    <script src="/theme/js/jquery.sticky-kit.js"></script>
+    <link href="/lib/slick/slick-theme.css" rel="stylesheet" />
+    <link href="/lib/slick/slick.css" rel="stylesheet" />
+    <script src="/lib/slick/slick.min.js"></script>
+
+    
+
+    
+<!--Thẻ quang cài Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKW8WKHT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    
+<script>
+        var rid = '42';
+        var rv = 3.6
+</script>
+<link href="/lib/starrate/css/style.css?v=2" rel="stylesheet" />
+<script src="/lib/starrate/js/starwars.js"></script>
+
+<script>
+    $(document).on('click', 'a.view-more', function (e) {
+        e.preventDefault();
+        $('.project-news ul li').removeClass("hidden");
+        $(this).remove();
+    });
+</script>
+
+    
+    
+     
+        <script type="application/ld+json">
+            {
+            "@context":"http://schema.org",
+            "@type":"Product",
+            "url":"https://diaocachau.com.vn/khu-do-thi-haven-living",
+            "name":"Dự án KHU ĐÔ THỊ HAVEN LIVING",
+            "description":"Dự án Haven Living là khu đô thị nhà phố được quy hoạch bài bản theo định hướng phát triển đô thị xanh, hiện đại và bền vững.",
+            "image":"https://diaocachau.com.vn/media/photo/o42-663522.jpg",
+            "aggregateRating": {
+            "@type": "AggregateRating",
+            "bestRating": "5",
+            "ratingValue": "3.6",
+            "reviewCount": "5"
+            }
+            }
+        </script>
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"7e235740f4774c69baca3fdc810aeeab","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
