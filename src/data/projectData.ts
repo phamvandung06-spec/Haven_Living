@@ -1,6 +1,17 @@
 /**
  * Dữ liệu chính thức Khu Đô Thị ARA
  */
+import heroSlide1 from '../assets/images/regenerated_image_1793264382476.jpg';
+import heroSlide3 from '../assets/images/regenerated_image_1793264377625.jpg';
+import heroSlide4 from '../assets/images/regenerated_image_1793264417080.jpg';
+import heroSlide5 from '../assets/images/regenerated_image_1793264418940.jpg';
+import overviewBannerImg from '../assets/images/regenerated_image_1793264387101.png';
+import locationMapImg from '../assets/images/regenerated_image_1793264392013.png';
+import amenitiesMapImg from '../assets/images/regenerated_image_1793264397652.png';
+import progress1Img from '../assets/images/regenerated_image_1793264401316.jpg';
+import progress2Img from '../assets/images/regenerated_image_1793264407546.jpg';
+import progress4Img from '../assets/images/regenerated_image_1793264411827.jpg';
+import progress6Img from '../assets/images/regenerated_image_1793264414471.jpg';
 
 export interface GalleryItem {
   id: string;
@@ -140,7 +151,7 @@ export const CONNECTIVITY_MILESTONES = [
 export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'hero-1',
-    url: 'https://diaocachau.com.vn/media/photo/o42-663522.jpg',
+    url: heroSlide1,
     title: 'Cổng chào & Phối cảnh Khu Đô Thị ARA',
     category: 'render',
     caption: 'Khu đô thị sinh thái xanh kiểu mẫu với cổng chào bề thế và đại lộ rực rỡ bóng cây xanh mát.',
@@ -154,21 +165,21 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     id: 'hero-3',
-    url: 'https://diaocachau.com.vn/media/photo/o42-859969.jpg',
+    url: heroSlide3,
     title: 'Công viên sinh thái trung tâm & Đường dạo bộ',
     category: 'render',
     caption: 'Mảng xanh mát lành ôm trọn không gian sống, nơi tái tạo năng lượng cho cả gia đình.',
   },
   {
     id: 'hero-4',
-    url: 'https://diaocachau.com.vn/media/photo/o42-714050.jpg',
+    url: heroSlide4,
     title: 'Phối cảnh tổng thể từ trên cao',
     category: 'render',
     caption: 'Quy hoạch ô cờ thông thoáng 19,3 ha với mạng lưới đường nội khu 12m – 22m kết nối thuận tiện.',
   },
   {
     id: 'hero-5',
-    url: 'https://diaocachau.com.vn/media/photo/o42-632593.jpg',
+    url: heroSlide5,
     title: 'Phố thương mại sầm uất ban ngày',
     category: 'render',
     caption: 'Nơi quy tụ chuỗi cà phê, nhà hàng, cửa hàng tiện ích phục vụ cộng đồng cư dân tinh hoa.',
@@ -213,13 +224,13 @@ export const GALLERY_ITEMS: GalleryItem[] = [
 export const ACTUAL_PROGRESS_PHOTOS = [
   {
     id: 'actual-1',
-    url: 'https://diaocachau.com.vn/media/uploads/uploads/1785985332331-1555873565258844850-g46859_X2.jpg',
+    url: progress1Img,
     title: 'Hạ tầng đường nhựa & vỉa hè hoàn thiện',
     desc: 'Đường nội khu đã trải nhựa bằng phẳng, vỉa hè rộng rãi trồng cây xanh bóng mát.',
   },
   {
     id: 'actual-2',
-    url: 'https://diaocachau.com.vn/media/uploads/uploads/dji_0629.jpg',
+    url: progress2Img,
     title: 'Toàn cảnh đại dự án nhìn từ Flycam',
     desc: 'Khu đất bằng phẳng, quy hoạch phân khu rõ ràng, kết nối trực tiếp các trục đường lớn.',
   },
@@ -231,7 +242,7 @@ export const ACTUAL_PROGRESS_PHOTOS = [
   },
   {
     id: 'actual-4',
-    url: 'https://diaocachau.com.vn/media/uploads/uploads/dji_0634.jpg',
+    url: progress4Img,
     title: 'Kết nối mạng lưới đường nhựa liên thông',
     desc: 'Hệ thống giao thông nội bộ kết nối thẳng ra trục chính ĐT741 và các khu dân cư hiện hữu.',
   },
@@ -243,16 +254,16 @@ export const ACTUAL_PROGRESS_PHOTOS = [
   },
   {
     id: 'actual-6',
-    url: 'https://diaocachau.com.vn/media/uploads/uploads/dji-0618_m9.jpg',
+    url: progress6Img,
     title: 'Góc nhìn hạ tầng vùng và tiện ích bao quanh',
     desc: 'Vị trí bao bọc bởi khu dân cư sung túc, gần kề các khu công nghiệp trọng điểm.',
   },
 ];
 
 export const MAP_IMAGES = {
-  overviewBanner: 'https://diaocachau.com.vn/media/uploads/uploads/2a.png',
-  locationMap: 'https://diaocachau.com.vn/media/uploads/uploads/7b.png',
-  amenitiesMap: 'https://diaocachau.com.vn/media/uploads/uploads/chatgpt%20image%2014_52_29%2022%20thg%207,%202026.png',
+  overviewBanner: overviewBannerImg,
+  locationMap: locationMapImg,
+  amenitiesMap: amenitiesMapImg,
   masterPlan: 'https://diaocachau.com.vn/media/uploads/uploads/s%C6%A1%20%C4%91%E1%BB%93%20haven%20living.jpg',
   policyBanner: 'https://diaocachau.com.vn/media/uploads/uploads/chatgpt%20image%2010_20_04%2011%20thg%207,%202026.png',
 };
