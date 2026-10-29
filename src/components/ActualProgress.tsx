@@ -23,7 +23,7 @@ export const ActualProgress: React.FC<ActualProgressProps> = ({
             <span className="w-8 h-px bg-emerald-600"></span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight font-serif text-balance">
-            Hình Ảnh Thực Tế Tại Dự Án Haven Living
+            Hình Ảnh Thực Tế Tại Khu Đô Thị ARA
           </h2>
           <p className="mt-4 text-slate-600 text-sm sm:text-base leading-relaxed text-balance">
             Hạ tầng kỹ thuật điện âm, đường nhựa nội bộ 12m – 22m, vỉa hè lát đá và hệ thống chiếu sáng đô thị

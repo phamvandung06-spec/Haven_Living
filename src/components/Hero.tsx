@@ -24,7 +24,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultModal, onOpenImageModal
   const currentSlide = heroSlides[currentSlideIndex];
 
   return (
-    <section className="relative min-h-screen bg-stone-950 text-white flex flex-col justify-between pt-24 pb-12 overflow-hidden">
+    <section id="du-an-ara" className="relative min-h-screen bg-stone-950 text-white flex flex-col justify-between pt-24 pb-12 overflow-hidden">
       {/* Background Image Carousel with Brighter Natural Scrim */}
       <div className="absolute inset-0 z-0">
         {heroSlides.map((slide, index) => (
@@ -60,7 +60,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultModal, onOpenImageModal
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight font-serif text-balance drop-shadow-md">
               KHU ĐÔ THỊ <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-teal-200 to-green-100">
-                HAVEN LIVING
+                ARA
               </span>
             </h1>
 

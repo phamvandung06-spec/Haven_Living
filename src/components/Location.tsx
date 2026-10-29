@@ -64,14 +64,14 @@ export const Location: React.FC<LocationProps> = ({ onOpenConsultModal, onOpenIm
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-emerald-700/50 bg-stone-900 group">
               <SafeImage
                 src={MAP_IMAGES.locationMap}
-                alt="Sơ đồ vị trí kết nối giao thông Khu Đô Thị Haven Living"
-                fallbackTitle="Sơ đồ vị trí dự án Haven Living"
+                alt="Sơ đồ vị trí kết nối giao thông Khu Đô Thị ARA"
+                fallbackTitle="Sơ đồ vị trí dự án Khu Đô Thị ARA"
                 aspectRatioClass="aspect-16/10"
                 allowZoom={true}
                 onZoom={() =>
                   onOpenImageModal(
                     MAP_IMAGES.locationMap,
-                    'Sơ đồ vị trí Khu Đô Thị Haven Living',
+                    'Sơ đồ vị trí Khu Đô Thị ARA',
                     'Vị trí chiến lược kết nối ĐT741 và Vành Đai 4'
                   )
                 }
@@ -88,7 +88,7 @@ export const Location: React.FC<LocationProps> = ({ onOpenConsultModal, onOpenIm
                   onClick={() =>
                     onOpenImageModal(
                       MAP_IMAGES.locationMap,
-                      'Sơ đồ vị trí Khu Đô Thị Haven Living',
+                      'Sơ đồ vị trí Khu Đô Thị ARA',
                       'Vị trí chiến lược kết nối ĐT741 và Vành Đai 4'
                     )
                   }
@@ -109,7 +109,7 @@ export const Location: React.FC<LocationProps> = ({ onOpenConsultModal, onOpenIm
                 <span>Giao Lộ Vàng Kết Nối Huyết Mạch</span>
               </h3>
               <p className="text-sm text-emerald-100/90 leading-relaxed mb-4">
-                Từ Haven Living, cư dân dễ dàng di chuyển nhanh chóng đến <strong>Thành phố Mới</strong> và các trung tâm thương mại, dịch vụ, y tế hàng đầu vùng kinh tế phía Nam.
+                Từ Khu Đô Thị ARA, cư dân dễ dàng di chuyển nhanh chóng đến <strong>Thành phố Mới</strong> và các trung tâm thương mại, dịch vụ, y tế hàng đầu vùng kinh tế phía Nam.
               </p>
               <div className="grid grid-cols-2 gap-3 pt-2 border-t border-emerald-800/50">
                 <div className="flex flex-col">

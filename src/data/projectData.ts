@@ -1,6 +1,5 @@
 /**
- * Dữ liệu chính thức Khu Đô Thị Haven Living
- * Trích xuất từ tài liệu dự án (Loại bỏ mọi thông tin về Địa Ốc Á Châu)
+ * Dữ liệu chính thức Khu Đô Thị ARA
  */
 
 export interface GalleryItem {
@@ -20,7 +19,7 @@ export interface AmenityItem {
 }
 
 export const PROJECT_DETAILS = {
-  name: 'Haven Living',
+  name: 'Khu đô thị ARA',
   legalName: 'Khu nhà ở Bình Minh',
   slogan: 'Khu Đô Thị Sinh Thái – Kiến Tạo Giá Trị Sống Mới',
   tagline: 'Không gian sống xanh lý tưởng với quy hoạch bài bản, hạ tầng đồng bộ và tiềm năng tăng trưởng bền vững',
@@ -142,7 +141,7 @@ export const GALLERY_ITEMS: GalleryItem[] = [
   {
     id: 'hero-1',
     url: 'https://diaocachau.com.vn/media/photo/o42-663522.jpg',
-    title: 'Cổng chào & Phối cảnh Khu Đô Thị Haven Living',
+    title: 'Cổng chào & Phối cảnh Khu Đô Thị ARA',
     category: 'render',
     caption: 'Khu đô thị sinh thái xanh kiểu mẫu với cổng chào bề thế và đại lộ rực rỡ bóng cây xanh mát.',
   },
@@ -260,7 +259,7 @@ export const MAP_IMAGES = {
 
 export const FAQ_LIST = [
   {
-    q: 'Dự án Haven Living đã có đầy đủ pháp lý chưa?',
+    q: 'Dự án Khu đô thị ARA đã có đầy đủ pháp lý chưa?',
     a: 'Dự án đã hoàn thiện pháp lý minh bạch, được cơ quan nhà nước có thẩm quyền phê duyệt chính thức. Toàn bộ hạ tầng điện âm, nước máy, đường giao thông đã hoàn thiện và đủ điều kiện pháp lý chuyển nhượng với sổ hồng riêng sở hữu lâu dài.',
   },
   {
@@ -272,7 +271,7 @@ export const FAQ_LIST = [
     a: 'Ngay sau khi nhận bàn giao nhà, khách hàng có thể ký hợp đồng ủy thác cho thuê với chủ đầu tư để nhận dòng tiền thụ động ổn định cam kết từ 10 - 15 triệu/tháng trong suốt 24 tháng liên tục.',
   },
   {
-    q: 'Ngân hàng nào bảo lãnh và cho vay tại Haven Living?',
+    q: 'Ngân hàng nào bảo lãnh và cho vay tại Khu đô thị ARA?',
     a: 'Dự án có sự đồng hành của các ngân hàng thương mại uy tín hàng đầu, hỗ trợ cho vay tối đa 70% giá trị hợp đồng trong thời hạn lên đến 20 - 25 năm, cùng chính sách ưu đãi lãi suất chỉ 8%/năm trong 2 năm đầu.',
   },
 ];

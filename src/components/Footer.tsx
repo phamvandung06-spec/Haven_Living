@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
       <div className="absolute inset-0 z-0 pointer-events-none">
         <img
           src="https://diaocachau.com.vn/media/photo/o42-714050.jpg"
-          alt="Haven Living Real Estate Backdrop"
+          alt="Khu Đô Thị ARA Real Estate Backdrop"
           referrerPolicy="no-referrer"
           className="w-full h-full object-cover opacity-15 filter grayscale-10"
         />
@@ -26,8 +26,8 @@ export const Footer: React.FC = () => {
           <div className="lg:col-span-5 flex flex-col gap-4">
             <div className="flex items-center gap-3">
               <img
-                src="/assets/aistudio/1_Logo_Haven_Living_96f35af5.png"
-                alt="Logo Khu Đô Thị Haven Living"
+                src="/assets/aistudio/Logo_Ara_5db23274.png"
+                alt="Logo Khu Đô Thị ARA"
                 className="h-16 sm:h-20 w-auto object-contain drop-shadow-md"
               />
             </div>
@@ -73,7 +73,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a href="#mat-bang" className="hover:text-emerald-700 transition-colors">
-                  Mặt bằng quy hoạch Haven Living
+                  Mặt bằng quy hoạch Khu Đô Thị ARA
                 </a>
               </li>
               <li>
@@ -132,7 +132,7 @@ export const Footer: React.FC = () => {
 
         {/* Bottom copyright */}
         <div className="pt-8 border-t border-slate-300/80 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
-          <p>© {new Date().getFullYear()} Khu Đô Thị Haven Living. Tất cả các quyền được bảo lưu.</p>
+          <p>© {new Date().getFullYear()} Khu Đô Thị ARA. Tất cả các quyền được bảo lưu.</p>
           <button
             type="button"
             onClick={scrollToTop}

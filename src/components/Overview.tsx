@@ -69,7 +69,7 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
             <span className="w-8 h-px bg-emerald-600"></span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight font-serif text-balance">
-            Khu Đô Thị Haven Living – Kiến Tạo Giá Trị Sống Mới
+            Khu Đô Thị ARA – Kiến Tạo Giá Trị Sống Mới
           </h2>
           <p className="mt-4 text-slate-600 text-sm sm:text-base leading-relaxed text-balance">
             Quy hoạch bài bản theo mô hình sinh thái đô thị kiểu mới, mang lại không gian sống trong lành,
@@ -81,7 +81,7 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center mb-16">
           <div className="lg:col-span-5 flex flex-col gap-4 text-slate-700 leading-relaxed text-sm sm:text-base">
             <p>
-              <strong>Haven Living</strong> là khu đô thị nhà phố được quy hoạch đồng bộ theo định hướng{' '}
+              <strong>Khu đô thị ARA</strong> là khu đô thị nhà phố được quy hoạch đồng bộ theo định hướng{' '}
               <span className="text-emerald-700 font-semibold">đô thị xanh, hiện đại và bền vững</span>,
               mang đến không gian sống chất lượng với hạ tầng hoàn thiện, cảnh quan xanh và hệ thống tiện ích đa dạng.
             </p>
@@ -90,7 +90,7 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
               và các dịch vụ thiết yếu, đáp ứng trọn vẹn mọi nhu cầu sinh hoạt hàng ngày của cư dân.
             </p>
             <p>
-              Các sản phẩm tại <strong>Haven Living</strong> được thiết kế hiện đại, tối ưu công năng trên nhiều diện tích khác nhau,
+              Các sản phẩm tại <strong>Khu đô thị ARA</strong> được thiết kế hiện đại, tối ưu công năng trên nhiều diện tích khác nhau,
               phù hợp cho cả nhu cầu an cư lâu dài và kinh doanh dịch vụ. Bên cạnh đó, dự án có{' '}
               <strong>pháp lý hoàn thiện minh bạch</strong>, quy hoạch khang trang cùng hệ thống tiện ích nội khu hoàn chỉnh, góp phần xây dựng
               cộng đồng cư dân văn minh và thịnh vượng.
@@ -102,14 +102,14 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
             <div className="rounded-3xl overflow-hidden shadow-2xl border border-emerald-900/10 group relative transition-all duration-500 hover:shadow-emerald-900/20">
               <SafeImage
                 src={MAP_IMAGES.overviewBanner}
-                alt="Phối cảnh Khu đô thị Haven Living"
-                fallbackTitle="Phối cảnh Khu Đô Thị Haven Living"
+                alt="Phối cảnh Khu đô thị ARA"
+                fallbackTitle="Phối cảnh Khu Đô Thị ARA"
                 aspectRatioClass="aspect-16/9"
                 allowZoom={true}
                 onZoom={() =>
                   onOpenImageModal(
                     MAP_IMAGES.overviewBanner,
-                    'Khu Đô Thị Haven Living'
+                    'Khu Đô Thị ARA'
                   )
                 }
                 className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-700"
@@ -158,11 +158,11 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
           </div>
         </div>
 
-        {/* 4 Lý do nên đầu tư vào Haven Living (Icons + Color themes, NO "Ưu thế" badge) */}
+        {/* 4 Lý do nên đầu tư vào Khu Đô Thị ARA (Icons + Color themes, NO "Ưu thế" badge) */}
         <div>
           <div className="max-w-2xl mx-auto text-center mb-10">
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900 font-serif">
-              4 Lý Do Vàng Nên Sở Hữu & Đầu Tư Haven Living
+              4 Lý Do Vàng Nên Sở Hữu & Đầu Tư Khu Đô Thị ARA
             </h3>
             <p className="text-xs sm:text-sm text-slate-500 mt-2">
               Sự hội tụ trọn vẹn giữa giá trị an cư đích thực và khả năng sinh lời bền vững

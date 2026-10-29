@@ -19,6 +19,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultModal }) => {
   }, []);
 
   const navLinks = [
+    { label: 'Chuyên Gia', href: '#chuyen-gia' },
     { label: 'Tổng Quan', href: '#tong-quan' },
     { label: 'Vị Trí', href: '#vi-tri' },
     { label: 'Tiện Ích', href: '#tien-ich' },
@@ -38,16 +39,16 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultModal }) => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Strict 3-Zone Top Bar Contract */}
         <div className="flex items-center justify-between gap-8">
-          {/* Zone 1: Official Haven Living Project Logo */}
+          {/* Zone 1: Official ARA Project Logo */}
           <a
             href="#"
             className="flex items-center gap-2 whitespace-nowrap shrink-0 group py-0.5"
-            aria-label="Haven Living - Về đầu trang"
+            aria-label="Khu Đô Thị ARA - Về đầu trang"
           >
             <img
-              src="/assets/aistudio/1_Logo_Haven_Living_96f35af5.png"
-              alt="Logo Khu Đô Thị Haven Living"
-              className="h-10 sm:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105 drop-shadow-md"
+              src="/assets/aistudio/Logo_Ara_5db23274.png"
+              alt="Logo Khu Đô Thị ARA"
+              className="h-9 sm:h-11 w-auto object-contain transition-transform duration-300 group-hover:scale-105 drop-shadow-md"
             />
           </a>
 

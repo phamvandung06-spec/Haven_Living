@@ -45,7 +45,7 @@ export const LeadForm: React.FC = () => {
       setIsSubmitting(false);
       setIsSuccess(true);
       try {
-        const existingLeads = JSON.parse(localStorage.getItem('haven_living_leads') || '[]');
+        const existingLeads = JSON.parse(localStorage.getItem('ara_leads') || '[]');
         existingLeads.push({
           fullname,
           phone,
@@ -54,7 +54,7 @@ export const LeadForm: React.FC = () => {
           note,
           date: new Date().toISOString(),
         });
-        localStorage.setItem('haven_living_leads', JSON.stringify(existingLeads));
+        localStorage.setItem('ara_leads', JSON.stringify(existingLeads));
       } catch (err) {
         console.error(err);
       }
@@ -71,7 +71,7 @@ export const LeadForm: React.FC = () => {
         <div className="bg-gradient-to-br from-emerald-900/90 to-stone-900/95 border border-emerald-700/60 rounded-3xl p-6 sm:p-10 lg:p-12 shadow-2xl backdrop-blur-xl">
           <div className="max-w-2xl mx-auto text-center mb-10">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white font-serif tracking-tight text-balance">
-              Nhận Tư Vấn & Bảng Giá Haven Living
+              Nhận Tư Vấn & Bảng Giá Khu Đô Thị ARA
             </h2>
             <p className="mt-3 text-stone-300 text-xs sm:text-sm leading-relaxed text-balance">
               Quý khách vui lòng để lại thông tin bên dưới để nhận trọn bộ tài liệu pháp lý minh bạch, bảng giá chi tiết
@@ -96,7 +96,7 @@ export const LeadForm: React.FC = () => {
               </div>
               <h3 className="text-xl font-bold text-white mb-2">Đăng Ký Thành Công!</h3>
               <p className="text-xs sm:text-sm text-stone-200 mb-6 leading-relaxed">
-                Cảm ơn <strong>{fullname}</strong> đã quan tâm đến dự án Khu Đô Thị Haven Living.
+                Cảm ơn <strong>{fullname}</strong> đã quan tâm đến dự án Khu Đô Thị ARA.
                 Chuyên viên tư vấn sẽ liên hệ lại qua số <strong>{phone}</strong> trong vòng 15 phút để gửi trọn bộ thông tin và bảng giá.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 justify-center">

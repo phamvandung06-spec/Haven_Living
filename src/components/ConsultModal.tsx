@@ -80,7 +80,7 @@ export const ConsultModal: React.FC<ConsultModalProps> = ({ isOpen, onClose }) =
             </div>
             <h3 className="text-xl font-bold text-white mb-2">Đăng Ký Thành Công!</h3>
             <p className="text-xs sm:text-sm text-stone-300 mb-6 leading-relaxed">
-              Cảm ơn <strong>{fullname}</strong> đã gửi yêu cầu. Bộ phận tư vấn của Khu Đô Thị Haven Living
+              Cảm ơn <strong>{fullname}</strong> đã gửi yêu cầu. Bộ phận tư vấn của Khu Đô Thị ARA
               sẽ gọi đến số <strong>{phone}</strong> để cung cấp bảng giá và chính sách ưu đãi trong ít phút.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
@@ -105,7 +105,7 @@ export const ConsultModal: React.FC<ConsultModalProps> = ({ isOpen, onClose }) =
             <div className="mb-6">
               <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-emerald-400 mb-2">
                 <Sparkles className="w-3.5 h-3.5" />
-                <span>Tài Liệu Dự Án Haven Living</span>
+                <span>Tài Liệu Khu Đô Thị ARA</span>
               </div>
               <h3 className="text-xl sm:text-2xl font-bold font-serif text-white">
                 Đăng Ký Nhận Báo Giá & Ưu Đãi

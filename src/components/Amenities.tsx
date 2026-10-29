@@ -108,8 +108,8 @@ export const Amenities: React.FC<AmenitiesProps> = ({ onOpenConsultModal, onOpen
               <div className="relative rounded-2xl overflow-hidden shadow-xl border border-slate-200 bg-white group">
                 <SafeImage
                   src={MAP_IMAGES.amenitiesMap}
-                  alt="Sơ đồ tiện ích ngoại khu Haven Living"
-                  fallbackTitle="Sơ đồ liên kết tiện ích Haven Living"
+                  alt="Sơ đồ tiện ích ngoại khu Khu Đô Thị ARA"
+                  fallbackTitle="Sơ đồ liên kết tiện ích Khu Đô Thị ARA"
                   aspectRatioClass="aspect-4/3"
                   allowZoom={true}
                   onZoom={() =>

@@ -18,7 +18,7 @@ export const FAQSection: React.FC = () => {
             <span>Giải Đáp Thắc Mắc</span>
           </div>
           <h3 className="text-2xl sm:text-3xl font-bold text-slate-900 font-serif">
-            Câu Hỏi Thường Gặp Về Haven Living
+            Câu Hỏi Thường Gặp Về Khu Đô Thị ARA
           </h3>
           <p className="text-xs sm:text-sm text-slate-500 mt-2">
             Những thông tin cốt lõi khách hàng thường quan tâm trước khi quyết định đầu tư

@@ -10,7 +10,7 @@ interface SafeImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
 
 export const SafeImage: React.FC<SafeImageProps> = ({
   src,
-  alt = 'Khu Đô Thị Haven Living',
+  alt = 'Khu Đô Thị ARA',
   fallbackTitle,
   allowZoom = false,
   onZoom,
@@ -34,7 +34,7 @@ export const SafeImage: React.FC<SafeImageProps> = ({
           {fallbackTitle || alt}
         </p>
         <span className="relative z-10 text-emerald-400/80 text-xs mt-1">
-          Khu Đô Thị Haven Living
+          Khu Đô Thị ARA
         </span>
       </div>
     );

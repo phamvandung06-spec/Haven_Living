@@ -71,10 +71,10 @@ export const Policies: React.FC<PoliciesProps> = ({ onOpenConsultModal, onOpenIm
             <span className="w-8 h-px bg-emerald-600"></span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight font-serif text-balance">
-            Chính Sách Bán Hàng & Ưu Đãi Haven Living
+            Chính Sách Bán Hàng & Ưu Đãi Khu Đô Thị ARA
           </h2>
           <p className="mt-4 text-slate-600 text-sm sm:text-base leading-relaxed text-balance">
-            Sở hữu Haven Living hôm nay, khách hàng không chỉ an tâm về pháp lý minh bạch 1/500 mà còn được
+            Sở hữu sản phẩm tại Khu Đô Thị ARA hôm nay, khách hàng không chỉ an tâm về pháp lý minh bạch hoàn thiện mà còn được
             tận hưởng chính sách bán hàng hấp dẫn giúp tối ưu dòng tiền và bảo đảm lợi nhuận đầu tư.
           </p>
         </div>
@@ -119,14 +119,14 @@ export const Policies: React.FC<PoliciesProps> = ({ onOpenConsultModal, onOpenIm
           <div className="rounded-2xl overflow-hidden shadow-md border border-slate-200 bg-stone-900 flex flex-col justify-between">
             <SafeImage
               src={MAP_IMAGES.policyBanner}
-              alt="Chính sách ưu đãi Haven Living"
-              fallbackTitle="Chính Sách Ưu Đãi Haven Living"
+              alt="Chính sách ưu đãi Khu Đô Thị ARA"
+              fallbackTitle="Chính Sách Ưu Đãi Khu Đô Thị ARA"
               aspectRatioClass="aspect-video"
               allowZoom={true}
               onZoom={() =>
                 onOpenImageModal(
                   MAP_IMAGES.policyBanner,
-                  'Chính Sách Ưu Đãi Haven Living',
+                  'Chính Sách Ưu Đãi Khu Đô Thị ARA',
                   'Chiết khấu 5-10%, cam kết thuê lại 2 năm, hỗ trợ lãi suất 8%/năm'
                 )
               }
@@ -237,7 +237,7 @@ export const Policies: React.FC<PoliciesProps> = ({ onOpenConsultModal, onOpenIm
                 Kết Quả Dự Tính Tài Chính
               </span>
               <h4 className="text-lg font-bold text-white mb-6">
-                Phương Án Sở Hữu Haven Living
+                Phương Án Sở Hữu Khu Đô Thị ARA
               </h4>
 
               <div className="space-y-4 mb-6">

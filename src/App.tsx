@@ -5,6 +5,7 @@
 
 import React, { useState } from 'react';
 import { Navbar } from './components/Navbar';
+import { PersonalProfile } from './components/PersonalProfile';
 import { Hero } from './components/Hero';
 import { Overview } from './components/Overview';
 import { Location } from './components/Location';
@@ -54,7 +55,10 @@ export default function App() {
 
       {/* Main Content Sections */}
       <main>
-        {/* 1. Hero Section */}
+        {/* 1. Personal Branding Profile & Lĩnh Vực Chuyên Môn */}
+        <PersonalProfile onOpenConsultModal={() => setConsultModalOpen(true)} />
+
+        {/* 2. Hero Section of Khu Đô Thị ARA */}
         <Hero
           onOpenConsultModal={() => setConsultModalOpen(true)}
           onOpenImageModal={handleOpenImageModal}

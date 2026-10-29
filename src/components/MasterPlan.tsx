@@ -20,7 +20,7 @@ export const MasterPlan: React.FC<MasterPlanProps> = ({ onOpenConsultModal, onOp
             <span className="w-8 h-px bg-emerald-400"></span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white tracking-tight font-serif text-balance">
-            Mặt Bằng Tổng Thể Haven Living
+            Mặt Bằng Tổng Thể Khu Đô Thị ARA
           </h2>
           <p className="mt-4 text-emerald-200/80 text-sm sm:text-base leading-relaxed text-balance">
             Quy hoạch 19,3 ha với 1.305 sản phẩm thông thoáng, hạ tầng giao thông 12m – 22m kết nối bàn cờ.
@@ -33,14 +33,14 @@ export const MasterPlan: React.FC<MasterPlanProps> = ({ onOpenConsultModal, onOp
           <div className="relative">
             <SafeImage
               src={MAP_IMAGES.masterPlan}
-              alt="Mặt bằng phân lô quy hoạch Khu Đô Thị Haven Living"
-              fallbackTitle="Sơ đồ mặt bằng Haven Living"
+              alt="Mặt bằng phân lô quy hoạch Khu Đô Thị ARA"
+              fallbackTitle="Sơ đồ mặt bằng Khu Đô Thị ARA"
               aspectRatioClass="aspect-16/10"
               allowZoom={true}
               onZoom={() =>
                 onOpenImageModal(
                   MAP_IMAGES.masterPlan,
-                  'Sơ đồ phân lô Khu Đô Thị Haven Living (19,3 ha)',
+                  'Sơ đồ phân lô Khu Đô Thị ARA (19,3 ha)',
                   'Chi tiết phân khu nhà phố liền kề, shophouse thương mại và tiện ích công viên'
                 )
               }
@@ -53,7 +53,7 @@ export const MasterPlan: React.FC<MasterPlanProps> = ({ onOpenConsultModal, onOp
                 onClick={() =>
                   onOpenImageModal(
                     MAP_IMAGES.masterPlan,
-                    'Sơ đồ phân lô Khu Đô Thị Haven Living (19,3 ha)',
+                    'Sơ đồ phân lô Khu Đô Thị ARA (19,3 ha)',
                     'Chi tiết phân khu nhà phố liền kề, shophouse thương mại và tiện ích công viên'
                   )
                 }
@@ -67,7 +67,7 @@ export const MasterPlan: React.FC<MasterPlanProps> = ({ onOpenConsultModal, onOp
 
           <div className="p-4 sm:p-6 bg-emerald-900/95 border-t border-emerald-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
             <div>
-              <h4 className="text-base font-bold text-white">Sơ Đồ Phân Lô Haven Living</h4>
+              <h4 className="text-base font-bold text-white">Sơ Đồ Phân Lô Khu Đô Thị ARA</h4>
               <p className="text-xs text-emerald-200 mt-0.5">
                 Quy mô 19,3 ha · 1.305 sản phẩm · Trục đường nội bộ 12m – 22m trải nhựa hoàn thiện điện âm
               </p>
