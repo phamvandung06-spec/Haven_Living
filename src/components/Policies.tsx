@@ -109,7 +109,7 @@ export const Policies: React.FC<PoliciesProps> = ({ onOpenConsultModal, onOpenIm
 
                 <div className="pt-4 mt-4 border-t border-slate-100 flex items-center text-xs text-slate-500">
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600 mr-1.5" />
-                  <span>Áp dụng cho giỏ hàng đợt 1</span>
+                  <span>Áp dụng theo chính sách mới nhất</span>
                 </div>
               </div>
             );

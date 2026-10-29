@@ -144,20 +144,20 @@ export const Amenities: React.FC<AmenitiesProps> = ({ onOpenConsultModal, onOpen
               </div>
             </div>
 
-            {/* Step-by-Step Milestones */}
+            {/* Step-by-Step Milestones with interactive hover effect */}
             <div className="lg:col-span-5 flex flex-col gap-3">
               {CONNECTIVITY_MILESTONES.map((item, index) => (
                 <div
                   key={index}
-                  className="p-4 bg-white rounded-xl border border-slate-200/80 shadow-xs hover:border-emerald-500/50 hover:shadow-md transition-all flex items-start gap-3.5"
+                  className="group p-4 bg-white rounded-2xl border border-slate-200/80 shadow-xs hover:border-emerald-500 hover:bg-emerald-50/70 hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex items-start gap-3.5 cursor-pointer"
                 >
-                  <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 flex flex-col items-center justify-center shrink-0 border border-emerald-100">
+                  <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 group-hover:bg-emerald-700 group-hover:text-white group-hover:scale-105 transition-all duration-300 flex flex-col items-center justify-center shrink-0 border border-emerald-100 shadow-xs">
                     <Clock className="w-4 h-4 mb-0.5" />
                     <span className="text-[11px] font-extrabold leading-none">{item.time}</span>
                   </div>
 
                   <div className="flex-1">
-                    <h4 className="text-sm font-bold text-slate-900 leading-snug">
+                    <h4 className="text-sm font-bold text-slate-900 group-hover:text-emerald-900 transition-colors leading-snug">
                       {item.place}
                     </h4>
                     <p className="text-xs text-slate-500 mt-1 leading-relaxed">
@@ -170,7 +170,7 @@ export const Amenities: React.FC<AmenitiesProps> = ({ onOpenConsultModal, onOpen
           </div>
         )}
 
-        {/* Tab 2: Internal Eco Living Amenities */}
+        {/* Tab 2: Internal Eco Living Amenities with interactive hover effect */}
         {activeTab === 'internal' && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {internalAmenities.map((amenity, idx) => {
@@ -178,13 +178,13 @@ export const Amenities: React.FC<AmenitiesProps> = ({ onOpenConsultModal, onOpen
               return (
                 <div
                   key={idx}
-                  className="p-6 bg-white rounded-2xl border border-slate-200/90 shadow-xs hover:border-emerald-500/50 hover:shadow-lg transition-all flex flex-col justify-between group"
+                  className="p-6 bg-white rounded-2xl border border-slate-200/90 shadow-sm hover:border-emerald-400 hover:shadow-xl hover:-translate-y-2 hover:bg-gradient-to-br hover:from-white hover:to-emerald-50/60 transition-all duration-300 flex flex-col justify-between group cursor-pointer"
                 >
                   <div>
-                    <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center mb-4 group-hover:bg-emerald-600 group-hover:text-white transition-colors">
+                    <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center mb-4 group-hover:bg-emerald-600 group-hover:text-white group-hover:scale-110 transition-all duration-300">
                       <IconComp className="w-6 h-6" />
                     </div>
-                    <h4 className="text-base font-bold text-slate-900 group-hover:text-emerald-800 transition-colors mb-2">
+                    <h4 className="text-base font-bold text-slate-900 group-hover:text-emerald-900 transition-colors mb-2">
                       {amenity.title}
                     </h4>
                     <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">

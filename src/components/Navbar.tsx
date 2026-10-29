@@ -31,8 +31,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultModal }) => {
     <header
       className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
         isScrolled
-          ? 'bg-emerald-950/95 backdrop-blur-md shadow-lg shadow-emerald-950/20 py-3 border-b border-emerald-800/40 text-white'
-          : 'bg-gradient-to-b from-black/80 via-black/40 to-transparent py-4 text-white'
+          ? 'bg-emerald-950/92 backdrop-blur-md shadow-lg shadow-emerald-950/20 py-3 border-b border-emerald-800/40 text-white'
+          : 'bg-gradient-to-b from-emerald-950/75 via-emerald-950/30 to-transparent py-4 text-white'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -70,10 +70,6 @@ export const LeadForm: React.FC = () => {
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="bg-gradient-to-br from-emerald-900/90 to-stone-900/95 border border-emerald-700/60 rounded-3xl p-6 sm:p-10 lg:p-12 shadow-2xl backdrop-blur-xl">
           <div className="max-w-2xl mx-auto text-center mb-10">
-            <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-widest text-emerald-300 bg-emerald-800/60 px-3 py-1 rounded-full mb-3 border border-emerald-600/40">
-              <Sparkles className="w-3.5 h-3.5" />
-              <span>Chương Trình Mở Bán Đợt 1</span>
-            </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white font-serif tracking-tight text-balance">
               Nhận Tư Vấn & Bảng Giá Haven Living
             </h2>

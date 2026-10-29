@@ -3,11 +3,10 @@ import {
   Building2,
   MapPin,
   CheckCircle2,
-  FileBadge,
-  Sparkles,
-  Layers,
-  Zap,
+  Compass,
   TrendingUp,
+  Home,
+  Sparkles,
 } from 'lucide-react';
 import { PROJECT_DETAILS, CORE_PILLARS, MAP_IMAGES } from '../data/projectData';
 import { SafeImage } from './SafeImage';
@@ -18,6 +17,7 @@ interface OverviewProps {
 }
 
 export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenImageModal }) => {
+  // Specs without "Mật độ xây dựng"
   const specs = [
     { label: 'Tên thương mại', value: PROJECT_DETAILS.name, highlight: true },
     { label: 'Tên pháp lý quy hoạch', value: PROJECT_DETAILS.legalName },
@@ -29,9 +29,33 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
     { label: 'Diện tích phân lô', value: PROJECT_DETAILS.landArea },
     { label: 'Tiêu chuẩn xây dựng', value: PROJECT_DETAILS.houseSpec },
     { label: 'Mức giá dự kiến', value: PROJECT_DETAILS.expectedPrice, highlight: true },
-    { label: 'Mật độ xây dựng', value: PROJECT_DETAILS.constructionDensity },
     { label: 'Pháp lý dự án', value: PROJECT_DETAILS.legalStatus },
     { label: 'Hạ tầng kỹ thuật', value: PROJECT_DETAILS.infrastructure },
+  ];
+
+  // Tailored icons and colors for 4 Pillars
+  const pillarIcons = [MapPin, Compass, TrendingUp, Home];
+  const pillarStyles = [
+    {
+      iconBg: 'bg-emerald-100 text-emerald-800',
+      badgeBg: 'text-emerald-700',
+      hoverBg: 'hover:from-emerald-50 hover:to-teal-50/60 hover:border-emerald-400',
+    },
+    {
+      iconBg: 'bg-teal-100 text-teal-800',
+      badgeBg: 'text-teal-700',
+      hoverBg: 'hover:from-teal-50 hover:to-cyan-50/60 hover:border-teal-400',
+    },
+    {
+      iconBg: 'bg-amber-100 text-amber-800',
+      badgeBg: 'text-amber-700',
+      hoverBg: 'hover:from-amber-50 hover:to-orange-50/60 hover:border-amber-400',
+    },
+    {
+      iconBg: 'bg-green-100 text-green-800',
+      badgeBg: 'text-green-700',
+      hoverBg: 'hover:from-green-50 hover:to-emerald-50/60 hover:border-green-400',
+    },
   ];
 
   return (
@@ -45,7 +69,7 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
             <span className="w-8 h-px bg-emerald-600"></span>
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight font-serif text-balance">
-            Khu Đô Thị Haven Living – Kiến Tạo Giá Trị Sống Hiện Đại
+            Khu Đô Thị Haven Living – Kiến Tạo Giá Trị Sống Mới
           </h2>
           <p className="mt-4 text-slate-600 text-sm sm:text-base leading-relaxed text-balance">
             Quy hoạch bài bản theo mô hình sinh thái đô thị kiểu mới, mang lại không gian sống trong lành,
@@ -53,9 +77,9 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
           </p>
         </div>
 
-        {/* Narrative & High-impact Banner */}
+        {/* Narrative & WIDER High-impact Banner (No text below image) */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center mb-16">
-          <div className="lg:col-span-6 flex flex-col gap-4 text-slate-700 leading-relaxed text-sm sm:text-base">
+          <div className="lg:col-span-5 flex flex-col gap-4 text-slate-700 leading-relaxed text-sm sm:text-base">
             <p>
               <strong>Haven Living</strong> là khu đô thị nhà phố được quy hoạch đồng bộ theo định hướng{' '}
               <span className="text-emerald-700 font-semibold">đô thị xanh, hiện đại và bền vững</span>,
@@ -73,8 +97,9 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
             </p>
           </div>
 
-          <div className="lg:col-span-6">
-            <div className="rounded-2xl overflow-hidden shadow-xl border border-emerald-900/10 group relative">
+          {/* Wider Image Container - Completely clean without text bar below */}
+          <div className="lg:col-span-7">
+            <div className="rounded-3xl overflow-hidden shadow-2xl border border-emerald-900/10 group relative transition-all duration-500 hover:shadow-emerald-900/20">
               <SafeImage
                 src={MAP_IMAGES.overviewBanner}
                 alt="Phối cảnh Khu đô thị Haven Living"
@@ -84,30 +109,20 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
                 onZoom={() =>
                   onOpenImageModal(
                     MAP_IMAGES.overviewBanner,
-                    'Khu Đô Thị Haven Living',
-                    'Kiến tạo giá trị sống hiện đại, chuẩn sinh thái xanh'
+                    'Khu Đô Thị Haven Living'
                   )
                 }
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover group-hover:scale-103 transition-transform duration-700"
               />
-              <div className="p-4 bg-emerald-900 text-white flex items-center justify-between">
-                <div>
-                  <h4 className="font-bold text-sm text-emerald-100">Khu Nhà Ở Bình Minh (Haven Living)</h4>
-                  <p className="text-xs text-emerald-300">Quy hoạch 19,3 ha đồng bộ với 1.305 căn nhà phố & shophouse</p>
-                </div>
-                <span className="text-xs px-2.5 py-1 bg-emerald-700 rounded-md font-semibold text-emerald-100">
-                  Hoàn thiện minh bạch
-                </span>
-              </div>
             </div>
           </div>
         </div>
 
-        {/* Project Specifications Table with Alternating Zebra Colors */}
-        <div className="bg-white rounded-2xl shadow-sm border border-slate-200/80 p-6 sm:p-8 mb-16">
+        {/* Project Specifications Table with Interactive Hover & Color Shift (No construction density) */}
+        <div className="bg-white rounded-3xl shadow-sm border border-slate-200/80 p-6 sm:p-8 mb-16">
           <div className="flex items-center justify-between border-b border-slate-100 pb-4 mb-6">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg bg-emerald-50 text-emerald-700 flex items-center justify-center">
+              <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center">
                 <Building2 className="w-5 h-5" />
               </div>
               <div>
@@ -124,7 +139,7 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
             {specs.map((item, index) => (
               <div
                 key={index}
-                className={`flex flex-col sm:flex-row sm:items-center justify-between py-3 px-4 rounded-xl border transition-colors ${
+                className={`flex flex-col sm:flex-row sm:items-center justify-between py-3 px-4 rounded-xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:bg-emerald-100/90 hover:border-emerald-400 cursor-pointer ${
                   index % 2 === 0
                     ? 'bg-emerald-50/60 border-emerald-100/80'
                     : 'bg-stone-50/80 border-stone-200/70'
@@ -143,7 +158,7 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
           </div>
         </div>
 
-        {/* 4 Lý do nên đầu tư vào Haven Living (Pillars with interactive hover animation & color shift) */}
+        {/* 4 Lý do nên đầu tư vào Haven Living (Icons + Color themes, NO "Ưu thế" badge) */}
         <div>
           <div className="max-w-2xl mx-auto text-center mb-10">
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900 font-serif">
@@ -155,36 +170,41 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {CORE_PILLARS.map((pillar) => (
-              <div
-                key={pillar.index}
-                className="bg-white rounded-2xl p-6 border border-slate-200/90 shadow-sm hover:shadow-xl hover:-translate-y-2 hover:bg-gradient-to-br hover:from-emerald-50 hover:via-teal-50/50 hover:to-emerald-100/50 hover:border-emerald-400 transition-all duration-300 flex flex-col justify-between group cursor-pointer"
-              >
-                <div>
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="text-2xl font-extrabold text-emerald-700 font-serif tabular-nums group-hover:scale-110 transition-transform">
-                      {pillar.index}
-                    </span>
-                    <span className="text-xs font-semibold text-emerald-600 bg-emerald-50 group-hover:bg-emerald-100/80 px-2 py-0.5 rounded transition-colors">
-                      Ưu thế
-                    </span>
+            {CORE_PILLARS.map((pillar, idx) => {
+              const IconComp = pillarIcons[idx] || Sparkles;
+              const style = pillarStyles[idx];
+
+              return (
+                <div
+                  key={pillar.index}
+                  className={`bg-white rounded-2xl p-6 border border-slate-200/90 shadow-sm hover:shadow-xl hover:-translate-y-2 bg-gradient-to-br ${style.hoverBg} transition-all duration-300 flex flex-col justify-between group cursor-pointer`}
+                >
+                  <div>
+                    <div className="flex items-center justify-between mb-4">
+                      <span className="text-2xl font-extrabold text-emerald-800 font-serif tabular-nums group-hover:scale-110 transition-transform">
+                        {pillar.index}
+                      </span>
+                      <div className={`w-10 h-10 rounded-xl ${style.iconBg} flex items-center justify-center shadow-xs group-hover:scale-110 transition-all duration-300`}>
+                        <IconComp className="w-5 h-5" />
+                      </div>
+                    </div>
+
+                    <h4 className="text-base font-bold text-slate-900 group-hover:text-emerald-900 transition-colors mb-2">
+                      {pillar.title}
+                    </h4>
+
+                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                      {pillar.desc}
+                    </p>
                   </div>
 
-                  <h4 className="text-base font-bold text-slate-900 group-hover:text-emerald-800 transition-colors mb-2">
-                    {pillar.title}
-                  </h4>
-
-                  <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                    {pillar.desc}
-                  </p>
+                  <div className="pt-4 mt-4 border-t border-slate-100 flex items-center gap-1.5 text-xs font-semibold text-emerald-700">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
+                    <span>{pillar.highlight}</span>
+                  </div>
                 </div>
-
-                <div className="pt-4 mt-4 border-t border-slate-100 flex items-center gap-1.5 text-xs font-medium text-emerald-700">
-                  <CheckCircle2 className="w-3.5 h-3.5" />
-                  <span>{pillar.highlight}</span>
-                </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>

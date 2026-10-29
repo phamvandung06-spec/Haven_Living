@@ -47,16 +47,10 @@ export const ActualProgress: React.FC<ActualProgressProps> = ({
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
 
-              {/* Number tag */}
-              <div className="absolute top-3.5 left-3.5 bg-black/60 backdrop-blur-md px-3 py-1 rounded-lg text-xs font-semibold text-emerald-300 border border-emerald-500/30">
-                Thực tế #0{index + 1}
-              </div>
-
-              {/* Zoom hint on hover */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-between p-4">
-                <span className="text-xs font-medium text-stone-200 line-clamp-1">{photo.title}</span>
-                <span className="p-2 rounded-lg bg-emerald-600 text-white shadow-md">
-                  <Maximize2 className="w-4 h-4" />
+              {/* Zoom icon on hover */}
+              <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+                <span className="p-3 rounded-xl bg-emerald-600/90 hover:bg-emerald-500 text-white shadow-xl backdrop-blur-xs transition-transform transform group-hover:scale-110">
+                  <Maximize2 className="w-5 h-5" />
                 </span>
               </div>
             </div>

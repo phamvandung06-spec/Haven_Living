@@ -20,18 +20,13 @@ export const Location: React.FC<LocationProps> = ({ onOpenConsultModal, onOpenIm
   const routes = [
     {
       name: 'Tuyến ĐT741 Huyết Mạch',
-      desc: 'Trục giao thương liên tỉnh kết nối xuyên suốt Bình Dương – Bình Phước – Tây Nguyên và TP. Hồ Chí Minh.',
+      desc: 'Trục giao thương liên tỉnh kết nối xuyên suốt các vùng kinh tế trọng điểm và TP. Hồ Chí Minh.',
       status: 'Đang khai thác',
     },
     {
       name: 'Tuyến Đường Vành Đai 4',
       desc: 'Đại dự án liên kết vùng kinh tế trọng điểm phía Nam kết nối 5 tỉnh thành: Đồng Nai – Bình Dương – TP.HCM – Long An – Bà Rịa Vũng Tàu.',
       status: 'Trọng điểm quốc gia',
-    },
-    {
-      name: 'Đường Song Hành Đường Sắt',
-      desc: 'Hành lang vận tải logistics công nghiệp kết nối các đại khu công nghiệp đến cụm cảng nước sâu và sân bay quốc tế Long Thành.',
-      status: 'Quy hoạch kết nối',
     },
     {
       name: 'Trực Diện KCN VSIP 2 & VSIP 2 Mở Rộng',
@@ -108,14 +103,13 @@ export const Location: React.FC<LocationProps> = ({ onOpenConsultModal, onOpenIm
 
           {/* Right Column: Connection Narrative & Travel Time */}
           <div className="lg:col-span-5 flex flex-col gap-6">
-            <div className="p-6 rounded-2xl bg-emerald-900/40 border border-emerald-800/60 backdrop-blur-md">
+            <div className="p-6 rounded-2xl bg-emerald-900/40 border border-emerald-800/60 backdrop-blur-md hover:bg-emerald-900/50 transition-colors">
               <h3 className="text-lg font-bold text-white mb-3 flex items-center gap-2">
                 <Compass className="w-5 h-5 text-emerald-400" />
-                <span>Giao Lộ Vàng 3 Tuyến Huyết Mạch</span>
+                <span>Giao Lộ Vàng Kết Nối Huyết Mạch</span>
               </h3>
               <p className="text-sm text-emerald-100/90 leading-relaxed mb-4">
-                Từ Haven Living, cư dân dễ dàng di chuyển nhanh chóng đến <strong>Thành phố Mới Bình Dương</strong>,{' '}
-                <strong>TP. Thủ Dầu Một</strong> và các trung tâm thương mại, dịch vụ, y tế hàng đầu vùng kinh tế phía Nam.
+                Từ Haven Living, cư dân dễ dàng di chuyển nhanh chóng đến <strong>Thành phố Mới</strong> và các trung tâm thương mại, dịch vụ, y tế hàng đầu vùng kinh tế phía Nam.
               </p>
               <div className="grid grid-cols-2 gap-3 pt-2 border-t border-emerald-800/50">
                 <div className="flex flex-col">
@@ -129,20 +123,20 @@ export const Location: React.FC<LocationProps> = ({ onOpenConsultModal, onOpenIm
               </div>
             </div>
 
-            {/* Strategic Routes Cards */}
+            {/* Strategic Routes Cards with interactive hover */}
             <div className="flex flex-col gap-3">
               {routes.map((route, i) => (
                 <div
                   key={i}
-                  className="p-4 rounded-xl bg-emerald-900/20 border border-emerald-800/40 hover:bg-emerald-900/40 transition-colors"
+                  className="p-4 rounded-xl bg-emerald-900/30 border border-emerald-800/50 hover:bg-emerald-900/70 hover:border-emerald-500 hover:-translate-y-1 hover:shadow-lg transition-all duration-300 cursor-pointer"
                 >
                   <div className="flex items-center justify-between mb-1">
                     <h4 className="text-sm font-bold text-white">{route.name}</h4>
-                    <span className="text-xs text-emerald-300 font-medium bg-emerald-800/60 px-2 py-0.5 rounded">
+                    <span className="text-xs text-emerald-300 font-medium bg-emerald-800/70 px-2 py-0.5 rounded">
                       {route.status}
                     </span>
                   </div>
-                  <p className="text-xs text-emerald-200/80 leading-relaxed">{route.desc}</p>
+                  <p className="text-xs text-emerald-200/90 leading-relaxed">{route.desc}</p>
                 </div>
               ))}
             </div>

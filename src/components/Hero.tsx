@@ -25,7 +25,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultModal, onOpenImageModal
 
   return (
     <section className="relative min-h-screen bg-stone-950 text-white flex flex-col justify-between pt-24 pb-12 overflow-hidden">
-      {/* Background Image Carousel with Measured Contrast Scrim */}
+      {/* Background Image Carousel with Brighter Natural Scrim */}
       <div className="absolute inset-0 z-0">
         {heroSlides.map((slide, index) => (
           <div
@@ -40,9 +40,9 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultModal, onOpenImageModal
               fallbackTitle={slide.title}
               className="w-full h-full object-cover scale-105 transition-transform duration-10000"
             />
-            {/* Measured Scrim ensures text legibility > 4.5:1 across any luminance */}
-            <div className="absolute inset-0 bg-gradient-to-r from-emerald-950/95 via-stone-950/85 to-stone-950/70"></div>
-            <div className="absolute inset-0 bg-gradient-to-t from-stone-950 via-stone-950/40 to-transparent"></div>
+            {/* Lighter, fresh emerald & ambient lighting scrim */}
+            <div className="absolute inset-0 bg-gradient-to-r from-emerald-950/80 via-emerald-900/50 to-emerald-950/35"></div>
+            <div className="absolute inset-0 bg-gradient-to-t from-stone-900/90 via-transparent to-black/25"></div>
           </div>
         ))}
       </div>
@@ -52,26 +52,26 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultModal, onOpenImageModal
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           {/* Left Column: Value Proposition & Headlines */}
           <div className="lg:col-span-7 flex flex-col gap-6">
-            <div className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-emerald-400">
-              <span className="w-6 h-px bg-emerald-400"></span>
+            <div className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-wider text-emerald-300 bg-emerald-900/50 px-3 py-1 rounded-full w-fit border border-emerald-500/30 backdrop-blur-xs">
+              <span className="w-2 h-2 rounded-full bg-emerald-400"></span>
               <span>Kiến Tạo Giá Trị Sống Mới</span>
             </div>
 
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight font-serif text-balance">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight text-white leading-tight font-serif text-balance drop-shadow-md">
               KHU ĐÔ THỊ <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-green-200">
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-teal-200 to-green-100">
                 HAVEN LIVING
               </span>
             </h1>
 
-            <p className="text-base sm:text-lg text-stone-200 max-w-2xl leading-relaxed text-balance">
+            <p className="text-base sm:text-lg text-stone-100 max-w-2xl leading-relaxed text-balance drop-shadow-xs">
               Kiến tạo chuẩn sống xanh bền vững giữa trung tâm kết nối giao thương sầm uất.
               Quy hoạch đồng bộ <strong>19,3 ha</strong> với <strong>1.305 sản phẩm</strong> nhà phố hoàn thiện
               1 trệt 2 lầu, hạ tầng điện âm hiện đại với mức giá chỉ từ <strong>2,3 Tỷ đồng</strong>.
             </p>
 
             {/* Location highlight */}
-            <div className="flex items-center gap-2 text-stone-300 text-sm">
+            <div className="flex items-center gap-2 text-emerald-100 text-sm font-medium">
               <MapPin className="w-4 h-4 text-emerald-400 shrink-0" />
               <span>TP. Hồ Chí Minh (Liền kề VSIP 2 & Vành Đai 4)</span>
             </div>
@@ -81,23 +81,23 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultModal, onOpenImageModal
               <button
                 type="button"
                 onClick={onOpenConsultModal}
-                className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl font-bold text-sm bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-400 hover:to-emerald-500 text-white shadow-lg shadow-emerald-900/50 hover:shadow-emerald-500/30 transition-all hover:-translate-y-0.5 cursor-pointer"
+                className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-xl font-bold text-sm bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 shadow-xl shadow-emerald-950/40 hover:shadow-emerald-400/50 transition-all hover:scale-105 hover:-translate-y-0.5 cursor-pointer"
               >
-                <span>Nhận Báo Giá & Ưu Đãi Đợt 1</span>
+                <span>Nhận Báo Giá & Ưu Đãi</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>
 
             {/* Legal trust note */}
-            <div className="flex items-center gap-3 text-xs text-stone-400 pt-1">
+            <div className="flex items-center gap-3 text-xs text-stone-300 pt-1">
               <ShieldCheck className="w-4 h-4 text-emerald-400 shrink-0" />
               <span>Pháp lý: Hoàn thiện minh bạch · Sổ hồng lâu dài</span>
             </div>
           </div>
 
-          {/* Right Column: Hero Visual Card with Slider Controls */}
+          {/* Right Column: Hero Visual Card with Slider Controls (No text description beneath) */}
           <div className="lg:col-span-5 flex flex-col gap-3">
-            <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-emerald-500/20 bg-stone-900 group">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/20 bg-stone-900 group transition-all duration-300 hover:shadow-emerald-500/20">
               <SafeImage
                 src={currentSlide.url}
                 alt={currentSlide.title}
@@ -106,23 +106,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultModal, onOpenImageModal
                 className="w-full h-80 sm:h-96 object-cover"
               />
 
-              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex flex-col justify-end p-5">
-                <span className="text-xs uppercase tracking-wider font-semibold text-emerald-400 mb-1">
-                  Hình ảnh phối cảnh dự án
-                </span>
-                <h3 className="text-base font-bold text-white line-clamp-1">
-                  {currentSlide.title}
-                </h3>
-                <p className="text-xs text-stone-300 line-clamp-2 mt-1">
-                  {currentSlide.caption}
-                </p>
-              </div>
-
               {/* Zoom full button */}
               <button
                 type="button"
-                onClick={() => onOpenImageModal(currentSlide.url, currentSlide.title, currentSlide.caption)}
-                className="absolute top-4 right-4 p-2 rounded-lg bg-black/60 hover:bg-emerald-600 text-white backdrop-blur-md transition-all shadow-md"
+                onClick={() => onOpenImageModal(currentSlide.url, currentSlide.title)}
+                className="absolute top-4 right-4 p-2.5 rounded-xl bg-black/60 hover:bg-emerald-600 text-white backdrop-blur-md transition-all shadow-md hover:scale-110"
                 title="Phóng to ảnh"
               >
                 <Maximize2 className="w-4 h-4" />
@@ -135,7 +123,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultModal, onOpenImageModal
                   onClick={() =>
                     setCurrentSlideIndex((prev) => (prev === 0 ? heroSlides.length - 1 : prev - 1))
                   }
-                  className="p-2 rounded-full bg-black/70 hover:bg-emerald-600 text-white pointer-events-auto backdrop-blur-md transition-all"
+                  className="p-2.5 rounded-full bg-black/70 hover:bg-emerald-600 text-white pointer-events-auto backdrop-blur-md transition-all hover:scale-110"
                   aria-label="Ảnh trước"
                 >
                   <ChevronLeft className="w-4 h-4" />
@@ -143,7 +131,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultModal, onOpenImageModal
                 <button
                   type="button"
                   onClick={() => setCurrentSlideIndex((prev) => (prev + 1) % heroSlides.length)}
-                  className="p-2 rounded-full bg-black/70 hover:bg-emerald-600 text-white pointer-events-auto backdrop-blur-md transition-all"
+                  className="p-2.5 rounded-full bg-black/70 hover:bg-emerald-600 text-white pointer-events-auto backdrop-blur-md transition-all hover:scale-110"
                   aria-label="Ảnh tiếp theo"
                 >
                   <ChevronRight className="w-4 h-4" />
@@ -151,17 +139,17 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultModal, onOpenImageModal
               </div>
             </div>
 
-            {/* Thumbnail Navigation Strip */}
+            {/* Thumbnail Navigation Strip with hover glow */}
             <div className="grid grid-cols-5 gap-2">
               {heroSlides.map((slide, idx) => (
                 <button
                   key={slide.id}
                   type="button"
                   onClick={() => setCurrentSlideIndex(idx)}
-                  className={`relative rounded-lg overflow-hidden h-14 border transition-all ${
+                  className={`relative rounded-lg overflow-hidden h-14 border transition-all duration-300 hover:scale-105 ${
                     idx === currentSlideIndex
-                      ? 'border-emerald-400 ring-2 ring-emerald-400/50 scale-102'
-                      : 'border-stone-800 opacity-60 hover:opacity-100'
+                      ? 'border-emerald-400 ring-2 ring-emerald-400/70 shadow-md scale-102'
+                      : 'border-white/20 opacity-70 hover:opacity-100'
                   }`}
                   aria-label={`Xem ảnh ${idx + 1}`}
                 >
@@ -179,47 +167,47 @@ export const Hero: React.FC<HeroProps> = ({ onOpenConsultModal, onOpenImageModal
         </div>
       </div>
 
-      {/* Full-width KPI Strip below Hero Split */}
+      {/* Full-width KPI Strip below Hero Split - Bright and Luminous Style */}
       <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full mt-6">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 p-5 sm:p-6 rounded-2xl bg-stone-900/90 border border-emerald-900/50 backdrop-blur-xl shadow-2xl">
-          <div className="flex flex-col border-r border-stone-800 last:border-0 pr-4">
-            <span className="text-2xl sm:text-3xl font-extrabold text-emerald-400 font-serif tabular-nums">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 p-5 sm:p-6 rounded-2xl bg-white/95 backdrop-blur-xl border border-emerald-200/80 shadow-2xl text-slate-800">
+          <div className="flex flex-col border-r border-slate-200 last:border-0 pr-4 hover:-translate-y-1 transition-all duration-300">
+            <span className="text-2xl sm:text-3xl font-extrabold text-emerald-700 font-serif tabular-nums">
               19,3 ha
             </span>
-            <span className="text-xs font-medium text-stone-400 mt-1 uppercase tracking-wider">
+            <span className="text-xs font-bold text-slate-700 mt-1 uppercase tracking-wider">
               Quy Mô Quy Hoạch
             </span>
-            <span className="text-xs text-stone-500 mt-0.5">Tổng diện tích 193.319m²</span>
+            <span className="text-xs text-slate-500 mt-0.5">Tổng diện tích 193.319m²</span>
           </div>
 
-          <div className="flex flex-col border-r border-stone-800 last:border-0 sm:pl-4 pr-4">
-            <span className="text-2xl sm:text-3xl font-extrabold text-emerald-400 font-serif tabular-nums">
+          <div className="flex flex-col border-r border-slate-200 last:border-0 sm:pl-4 pr-4 hover:-translate-y-1 transition-all duration-300">
+            <span className="text-2xl sm:text-3xl font-extrabold text-emerald-700 font-serif tabular-nums">
               1.305
             </span>
-            <span className="text-xs font-medium text-stone-400 mt-1 uppercase tracking-wider">
+            <span className="text-xs font-bold text-slate-700 mt-1 uppercase tracking-wider">
               Sản Phẩm Đô Thị
             </span>
-            <span className="text-xs text-stone-500 mt-0.5">Nhà phố & Shophouse thương mại</span>
+            <span className="text-xs text-slate-500 mt-0.5">Nhà phố & Shophouse thương mại</span>
           </div>
 
-          <div className="flex flex-col border-r border-stone-800 last:border-0 sm:pl-4 pr-4">
-            <span className="text-2xl sm:text-3xl font-extrabold text-amber-400 font-serif tabular-nums">
+          <div className="flex flex-col border-r border-slate-200 last:border-0 sm:pl-4 pr-4 hover:-translate-y-1 transition-all duration-300">
+            <span className="text-2xl sm:text-3xl font-extrabold text-amber-600 font-serif tabular-nums">
               Chỉ 2,3 Tỷ
             </span>
-            <span className="text-xs font-medium text-stone-400 mt-1 uppercase tracking-wider">
+            <span className="text-xs font-bold text-slate-700 mt-1 uppercase tracking-wider">
               Giá Bán Dự Kiến
             </span>
-            <span className="text-xs text-stone-500 mt-0.5">Nhà 1 trệt 2 lầu hoàn thiện</span>
+            <span className="text-xs text-slate-500 mt-0.5">Nhà 1 trệt 2 lầu hoàn thiện</span>
           </div>
 
-          <div className="flex flex-col sm:pl-4">
-            <span className="text-2xl sm:text-3xl font-extrabold text-teal-300 font-serif">
-              Minh Bạch
+          <div className="flex flex-col sm:pl-4 hover:-translate-y-1 transition-all duration-300">
+            <span className="text-2xl sm:text-3xl font-extrabold text-teal-700 font-serif tabular-nums">
+              310
             </span>
-            <span className="text-xs font-medium text-stone-400 mt-1 uppercase tracking-wider">
-              Pháp Lý Hoàn Thiện
+            <span className="text-xs font-bold text-slate-700 mt-1 uppercase tracking-wider">
+              Nhà Ở Xã Hội
             </span>
-            <span className="text-xs text-stone-500 mt-0.5">Hạ tầng điện âm 100%</span>
+            <span className="text-xs text-slate-500 mt-0.5">Nhà ở xã hội thấp tầng</span>
           </div>
         </div>
       </div>

@@ -35,9 +35,9 @@ export const PROJECT_DETAILS = {
   constructionDensity: '48% – 59,5% (dành tối đa diện tích cho cảnh quan cây xanh và tiện ích sinh thái)',
   legalStatus: 'Hoàn thiện minh bạch, sổ hồng sở hữu lâu dài',
   infrastructure: 'Điện âm 100%, nước máy tiêu chuẩn đô thị, đường trải nhựa 12m – 22m, vỉa hè rộng rợp bóng cây xanh',
-  hotline: '0989 661 661',
-  hotlineDisplay: '0989.661.661',
-  zaloUrl: 'https://zalo.me/0989661661',
+  hotline: '0972 114 877',
+  hotlineDisplay: '0972.114.877',
+  zaloUrl: 'https://zalo.me/0972114877',
 };
 
 export const CORE_PILLARS = [

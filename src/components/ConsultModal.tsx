@@ -111,7 +111,7 @@ export const ConsultModal: React.FC<ConsultModalProps> = ({ isOpen, onClose }) =
                 Đăng Ký Nhận Báo Giá & Ưu Đãi
               </h3>
               <p className="text-xs text-stone-300 mt-1">
-                Nhận bảng giá đợt 1, tài liệu dự án và lịch trình xem sa bàn thực tế.
+                Nhận bảng giá, tài liệu dự án và lịch trình xem sa bàn thực tế.
               </p>
             </div>
 
