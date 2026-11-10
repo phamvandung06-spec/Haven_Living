@@ -49,7 +49,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen bg-stone-50 font-sans selection:bg-emerald-600 selection:text-white">
+    <div className="min-h-screen bg-[#f8f9fa] font-sans selection:bg-[#054062] selection:text-[#f9df7b]">
       {/* Navigation Top Bar */}
       <Navbar onOpenConsultModal={() => setConsultModalOpen(true)} />
 

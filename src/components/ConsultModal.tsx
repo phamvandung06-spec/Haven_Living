@@ -60,14 +60,14 @@ export const ConsultModal: React.FC<ConsultModalProps> = ({ isOpen, onClose }) =
       onClick={onClose}
     >
       <div
-        className="relative w-full max-w-lg bg-stone-900 border border-emerald-600/50 rounded-3xl p-6 sm:p-8 text-white shadow-2xl overflow-hidden"
+        className="relative w-full max-w-lg bg-[#002f52] border border-[#d59732]/40 rounded-3xl p-6 sm:p-8 text-white shadow-2xl overflow-hidden"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
         <button
           type="button"
           onClick={onClose}
-          className="absolute top-4 right-4 p-2 text-stone-400 hover:text-white rounded-full bg-stone-800/80 transition-colors"
+          className="absolute top-4 right-4 p-2 text-stone-300 hover:text-white rounded-full bg-[#04365a] transition-colors"
           aria-label="Đóng"
         >
           <X className="w-5 h-5" />
@@ -75,18 +75,18 @@ export const ConsultModal: React.FC<ConsultModalProps> = ({ isOpen, onClose }) =
 
         {isSuccess ? (
           <div className="text-center py-6">
-            <div className="w-14 h-14 bg-emerald-600 text-white rounded-full flex items-center justify-center mx-auto mb-4">
+            <div className="w-14 h-14 bg-gradient-to-r from-[#d59732] to-[#efa937] text-white rounded-full flex items-center justify-center mx-auto mb-4 shadow-lg shadow-[#d59732]/40">
               <CheckCircle className="w-8 h-8" />
             </div>
             <h3 className="text-xl font-bold text-white mb-2">Đăng Ký Thành Công!</h3>
-            <p className="text-xs sm:text-sm text-stone-300 mb-6 leading-relaxed">
+            <p className="text-xs sm:text-sm text-stone-200 mb-6 leading-relaxed">
               Cảm ơn <strong>{fullname}</strong> đã gửi yêu cầu. Bộ phận tư vấn của Khu Đô Thị ARA
               sẽ gọi đến số <strong>{phone}</strong> để cung cấp bảng giá và chính sách ưu đãi trong ít phút.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <a
                 href={`tel:${PROJECT_DETAILS.hotline.replace(/\s+/g, '')}`}
-                className="py-3 px-5 text-xs font-bold text-slate-950 bg-amber-400 hover:bg-amber-300 rounded-xl transition-colors inline-flex items-center justify-center gap-2"
+                className="py-3 px-6 text-xs font-bold text-white bg-gradient-to-r from-[#d59732] via-[#efa937] to-[#d59732] rounded-full transition-colors inline-flex items-center justify-center gap-2 shadow-md"
               >
                 <Phone className="w-4 h-4" />
                 <span>Gọi Hotline: {PROJECT_DETAILS.hotlineDisplay}</span>
@@ -94,7 +94,7 @@ export const ConsultModal: React.FC<ConsultModalProps> = ({ isOpen, onClose }) =
               <button
                 type="button"
                 onClick={onClose}
-                className="py-3 px-5 text-xs font-bold text-stone-300 bg-stone-800 rounded-xl hover:bg-stone-700 transition-colors"
+                className="py-3 px-5 text-xs font-bold text-stone-200 bg-[#04365a] border border-[#054062] rounded-full hover:bg-[#054062] transition-colors"
               >
                 Đóng cửa sổ
               </button>
@@ -103,8 +103,8 @@ export const ConsultModal: React.FC<ConsultModalProps> = ({ isOpen, onClose }) =
         ) : (
           <div>
             <div className="mb-6">
-              <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-emerald-400 mb-2">
-                <Sparkles className="w-3.5 h-3.5" />
+              <div className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-[#f9df7b] mb-2">
+                <Sparkles className="w-3.5 h-3.5 text-[#d59732]" />
                 <span>Tài Liệu Khu Đô Thị ARA</span>
               </div>
               <h3 className="text-xl sm:text-2xl font-bold font-serif text-white">
@@ -116,7 +116,7 @@ export const ConsultModal: React.FC<ConsultModalProps> = ({ isOpen, onClose }) =
             </div>
 
             {errorMsg && (
-              <div className="p-3 mb-4 rounded-lg bg-red-950/80 border border-red-500 text-red-200 text-xs font-medium">
+              <div className="p-3 mb-4 rounded-xl bg-red-950/80 border border-red-500 text-red-200 text-xs font-medium">
                 {errorMsg}
               </div>
             )}
@@ -124,7 +124,7 @@ export const ConsultModal: React.FC<ConsultModalProps> = ({ isOpen, onClose }) =
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
                 <label className="block text-xs font-semibold text-stone-300 mb-1">
-                  Họ và tên của bạn <span className="text-amber-400">*</span>
+                  Họ và tên của bạn <span className="text-[#f9df7b]">*</span>
                 </label>
                 <input
                   type="text"
@@ -132,13 +132,13 @@ export const ConsultModal: React.FC<ConsultModalProps> = ({ isOpen, onClose }) =
                   placeholder="Ví dụ: Nguyễn Văn A"
                   value={fullname}
                   onChange={(e) => setFullname(e.target.value)}
-                  className="w-full bg-stone-800 border border-stone-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent transition-all"
+                  className="w-full bg-[#04365a] border border-[#054062] rounded-full px-5 py-3 text-sm text-white placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-[#d59732] focus:border-transparent transition-all"
                 />
               </div>
 
               <div>
                 <label className="block text-xs font-semibold text-stone-300 mb-1">
-                  Số điện thoại nhận báo giá <span className="text-amber-400">*</span>
+                  Số điện thoại nhận báo giá <span className="text-[#f9df7b]">*</span>
                 </label>
                 <input
                   type="tel"
@@ -146,7 +146,7 @@ export const ConsultModal: React.FC<ConsultModalProps> = ({ isOpen, onClose }) =
                   placeholder="0989 xxx xxx"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
-                  className="w-full bg-stone-800 border border-stone-700 rounded-xl px-4 py-2.5 text-sm text-white placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent transition-all"
+                  className="w-full bg-[#04365a] border border-[#054062] rounded-full px-5 py-3 text-sm text-white placeholder-stone-400 focus:outline-none focus:ring-2 focus:ring-[#d59732] focus:border-transparent transition-all"
                 />
               </div>
 
@@ -157,11 +157,11 @@ export const ConsultModal: React.FC<ConsultModalProps> = ({ isOpen, onClose }) =
                 <select
                   value={interest}
                   onChange={(e) => setInterest(e.target.value)}
-                  className="w-full bg-stone-800 border border-stone-700 rounded-xl px-4 py-2.5 text-sm text-white focus:outline-none focus:ring-2 focus:ring-emerald-400 focus:border-transparent transition-all"
+                  className="w-full bg-[#04365a] border border-[#054062] rounded-full px-5 py-3 text-sm text-white focus:outline-none focus:ring-2 focus:ring-[#d59732] focus:border-transparent transition-all"
                 >
                   <option value="Nhà phố hoàn thiện 1 trệt 2 lầu">Nhà phố hoàn thiện (Từ 2,3 tỷ)</option>
                   <option value="Shophouse kinh doanh">Shophouse thương mại</option>
-                  <option value="Đất nền sổ đỏ">Đất nền sổ đỏ</option>
+                  <option value="Đất nền phân lô">Đất nền phân lô</option>
                   <option value="Đăng ký đi xem thực tế">Đón xe tham quan thực tế dự án</option>
                 </select>
               </div>
@@ -170,7 +170,7 @@ export const ConsultModal: React.FC<ConsultModalProps> = ({ isOpen, onClose }) =
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full py-3.5 bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 font-bold text-xs uppercase tracking-wider rounded-xl shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
+                  className="w-full py-4 bg-gradient-to-r from-[#d59732] via-[#efa937] to-[#d59732] hover:brightness-110 text-white font-bold text-xs uppercase tracking-wider rounded-full shadow-lg shadow-[#d59732]/30 transition-all flex items-center justify-center gap-2 cursor-pointer disabled:opacity-50"
                 >
                   {isSubmitting ? (
                     <span>Đang xử lý...</span>
@@ -184,7 +184,7 @@ export const ConsultModal: React.FC<ConsultModalProps> = ({ isOpen, onClose }) =
               </div>
 
               <div className="flex items-center justify-center gap-1.5 text-[11px] text-stone-400 pt-1">
-                <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
+                <ShieldCheck className="w-3.5 h-3.5 text-[#d59732]" />
                 <span>Cam kết bảo mật thông tin tuyệt đối</span>
               </div>
             </form>

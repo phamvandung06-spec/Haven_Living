@@ -4,6 +4,15 @@
   --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   --font-display: 'Plus Jakarta Sans', sans-serif;
   --font-serif: 'Playfair Display', serif;
+  
+  --color-kienhung-primary: #054062;
+  --color-kienhung-dark: #002f52;
+  --color-kienhung-navy: #04365a;
+  --color-kienhung-gold: #d59732;
+  --color-kienhung-gold-light: #efa937;
+  --color-kienhung-gold-glow: #f9df7b;
+  --color-kienhung-soft: #f8f9fa;
+  --color-kienhung-cream: #fdf6ea;
 }
 
 /* Custom smooth transitions and animations */
@@ -13,8 +22,8 @@ html {
 }
 
 ::selection {
-  background-color: #059669;
-  color: #ffffff;
+  background-color: #054062;
+  color: #f9df7b;
 }
 
 /* Custom scrollbar for gallery thumbnails */
@@ -25,3 +34,4 @@ html {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+

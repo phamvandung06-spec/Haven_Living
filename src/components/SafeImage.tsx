@@ -24,16 +24,16 @@ export const SafeImage: React.FC<SafeImageProps> = ({
   if (hasError || !src) {
     return (
       <div
-        className={`relative w-full ${aspectRatioClass} bg-gradient-to-br from-emerald-900 via-emerald-800 to-teal-950 flex flex-col items-center justify-center p-6 text-center overflow-hidden rounded-xl border border-emerald-700/30 ${className}`}
+        className={`relative w-full ${aspectRatioClass} bg-gradient-to-br from-[#002f52] via-[#04365a] to-[#002f52] flex flex-col items-center justify-center p-6 text-center overflow-hidden rounded-xl border border-[#d59732]/30 ${className}`}
       >
-        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#a7f3d0_1px,transparent_1px)] [background-size:16px_16px]"></div>
-        <div className="relative z-10 w-12 h-12 rounded-full bg-emerald-700/50 flex items-center justify-center text-emerald-200 mb-3 backdrop-blur-sm border border-emerald-500/30">
-          <Trees className="w-6 h-6 text-emerald-300" />
+        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#d59732_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div className="relative z-10 w-12 h-12 rounded-full bg-[#054062] flex items-center justify-center text-[#f9df7b] mb-3 backdrop-blur-sm border border-[#d59732]/30">
+          <Trees className="w-6 h-6 text-[#d59732]" />
         </div>
-        <p className="relative z-10 text-emerald-100 font-semibold text-sm max-w-xs leading-snug">
+        <p className="relative z-10 text-white font-semibold text-sm max-w-xs leading-snug">
           {fallbackTitle || alt}
         </p>
-        <span className="relative z-10 text-emerald-400/80 text-xs mt-1">
+        <span className="relative z-10 text-[#f9df7b] text-xs mt-1 font-medium">
           Khu Đô Thị ARA
         </span>
       </div>
@@ -43,8 +43,8 @@ export const SafeImage: React.FC<SafeImageProps> = ({
   return (
     <div className={`relative group overflow-hidden ${className}`}>
       {isLoading && (
-        <div className="absolute inset-0 bg-emerald-950/20 backdrop-blur-xs animate-pulse flex items-center justify-center z-10">
-          <ImageIcon className="w-6 h-6 text-emerald-600/40" />
+        <div className="absolute inset-0 bg-slate-900/30 backdrop-blur-xs animate-pulse flex items-center justify-center z-10">
+          <ImageIcon className="w-6 h-6 text-[#d59732]/50" />
         </div>
       )}
       <img
@@ -68,7 +68,7 @@ export const SafeImage: React.FC<SafeImageProps> = ({
           type="button"
           onClick={onZoom}
           aria-label="Xem ảnh phóng to"
-          className="absolute bottom-3 right-3 p-2 rounded-lg bg-black/60 hover:bg-emerald-700 text-white backdrop-blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-md flex items-center gap-1.5 text-xs font-medium"
+          className="absolute bottom-3 right-3 p-2 rounded-full bg-black/60 hover:bg-[#d59732] text-white backdrop-blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-md flex items-center gap-1.5 text-xs font-medium"
         >
           <ZoomIn className="w-3.5 h-3.5" />
           <span>Phóng to</span>

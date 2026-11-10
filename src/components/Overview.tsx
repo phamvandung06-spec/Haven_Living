@@ -33,45 +33,54 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
     { label: 'Hạ tầng kỹ thuật', value: PROJECT_DETAILS.infrastructure },
   ];
 
-  // Tailored icons and colors for 4 Pillars
+  // Tailored icons and colors for 4 Pillars (Kien Hung gold and deep teal style)
   const pillarIcons = [MapPin, Compass, TrendingUp, Home];
   const pillarStyles = [
     {
-      iconBg: 'bg-emerald-100 text-emerald-800',
-      badgeBg: 'text-emerald-700',
-      hoverBg: 'hover:from-emerald-50 hover:to-teal-50/60 hover:border-emerald-400',
+      iconBg: 'bg-[#fdf6ea] text-[#d59732] group-hover:bg-[#d59732] group-hover:text-white',
+      badgeBg: 'text-[#054062]',
+      hoverBg: 'hover:border-[#d59732] hover:shadow-[#054062]/10',
     },
     {
-      iconBg: 'bg-teal-100 text-teal-800',
-      badgeBg: 'text-teal-700',
-      hoverBg: 'hover:from-teal-50 hover:to-cyan-50/60 hover:border-teal-400',
+      iconBg: 'bg-[#e6f0f5] text-[#054062] group-hover:bg-[#054062] group-hover:text-white',
+      badgeBg: 'text-[#054062]',
+      hoverBg: 'hover:border-[#054062] hover:shadow-[#054062]/10',
     },
     {
-      iconBg: 'bg-amber-100 text-amber-800',
-      badgeBg: 'text-amber-700',
-      hoverBg: 'hover:from-amber-50 hover:to-orange-50/60 hover:border-amber-400',
+      iconBg: 'bg-[#fdf6ea] text-[#d59732] group-hover:bg-[#d59732] group-hover:text-white',
+      badgeBg: 'text-[#d59732]',
+      hoverBg: 'hover:border-[#d59732] hover:shadow-[#d59732]/10',
     },
     {
-      iconBg: 'bg-green-100 text-green-800',
-      badgeBg: 'text-green-700',
-      hoverBg: 'hover:from-green-50 hover:to-emerald-50/60 hover:border-green-400',
+      iconBg: 'bg-[#e6f0f5] text-[#054062] group-hover:bg-[#054062] group-hover:text-white',
+      badgeBg: 'text-[#054062]',
+      hoverBg: 'hover:border-[#054062] hover:shadow-[#054062]/10',
     },
   ];
 
   return (
-    <section id="tong-quan" className="py-20 bg-stone-50 text-slate-800">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="tong-quan" className="py-20 text-[#212529] relative overflow-hidden">
+      {/* Background Image: 2.jpg */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <img
+          src="/assets/aistudio/2.jpg"
+          alt="Geometric Background"
+          className="w-full h-full object-cover opacity-85"
+        />
+        <div className="absolute inset-0 bg-white/70 backdrop-blur-[1px]"></div>
+      </div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="inline-flex items-center gap-2 text-xs font-bold tracking-widest text-emerald-700 uppercase mb-3">
-            <span className="w-8 h-px bg-emerald-600"></span>
+          <div className="inline-flex items-center gap-2 text-xs font-bold tracking-widest text-[#d59732] uppercase mb-3 bg-[#fdf6ea] px-4 py-1.5 rounded-full border border-[#d59732]/30 shadow-xs">
+            <span className="w-2 h-2 rounded-full bg-[#d59732]"></span>
             <span>Quy Hoạch Đô Thị Xanh & Bền Vững</span>
-            <span className="w-8 h-px bg-emerald-600"></span>
           </div>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-slate-900 tracking-tight font-serif text-balance">
-            Khu Đô Thị ARA – Kiến Tạo Giá Trị Sống Mới
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-[#054062] tracking-tight font-serif text-balance">
+            Khu Đô Thị ARA – Kiến Tạo Giá Trị Sống
           </h2>
-          <p className="mt-4 text-slate-600 text-sm sm:text-base leading-relaxed text-balance">
+          <p className="mt-4 text-[#595959] text-sm sm:text-base leading-relaxed text-balance">
             Quy hoạch bài bản theo mô hình sinh thái đô thị kiểu mới, mang lại không gian sống trong lành,
             hạ tầng hoàn thiện và cơ hội gia tăng giá trị tài sản vượt trội cho chủ nhân.
           </p>
@@ -79,10 +88,10 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
 
         {/* Narrative & WIDER High-impact Banner (No text below image) */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center mb-16">
-          <div className="lg:col-span-5 flex flex-col gap-4 text-slate-700 leading-relaxed text-sm sm:text-base">
+          <div className="lg:col-span-5 flex flex-col gap-4 text-[#595959] leading-relaxed text-sm sm:text-base">
             <p>
-              <strong>Khu đô thị ARA</strong> là khu đô thị nhà phố được quy hoạch đồng bộ theo định hướng{' '}
-              <span className="text-emerald-700 font-semibold">đô thị xanh, hiện đại và bền vững</span>,
+              <strong className="text-[#212529]">Khu đô thị ARA</strong> là khu đô thị nhà phố được quy hoạch đồng bộ theo định hướng{' '}
+              <span className="text-[#054062] font-bold">đô thị sinh thái, hiện đại và bền vững</span>,
               mang đến không gian sống chất lượng với hạ tầng hoàn thiện, cảnh quan xanh và hệ thống tiện ích đa dạng.
             </p>
             <p>
@@ -90,16 +99,16 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
               và các dịch vụ thiết yếu, đáp ứng trọn vẹn mọi nhu cầu sinh hoạt hàng ngày của cư dân.
             </p>
             <p>
-              Các sản phẩm tại <strong>Khu đô thị ARA</strong> được thiết kế hiện đại, tối ưu công năng trên nhiều diện tích khác nhau,
+              Các sản phẩm tại <strong className="text-[#212529]">Khu đô thị ARA</strong> được thiết kế hiện đại, tối ưu công năng trên nhiều diện tích khác nhau,
               phù hợp cho cả nhu cầu an cư lâu dài và kinh doanh dịch vụ. Bên cạnh đó, dự án có{' '}
-              <strong>pháp lý hoàn thiện minh bạch</strong>, quy hoạch khang trang cùng hệ thống tiện ích nội khu hoàn chỉnh, góp phần xây dựng
+              <strong className="text-[#054062]">pháp lý hoàn thiện minh bạch</strong>, quy hoạch khang trang cùng hệ thống tiện ích nội khu hoàn chỉnh, góp phần xây dựng
               cộng đồng cư dân văn minh và thịnh vượng.
             </p>
           </div>
 
           {/* Wider Image Container - Completely clean without text bar below */}
           <div className="lg:col-span-7">
-            <div className="rounded-3xl overflow-hidden shadow-2xl border border-emerald-900/10 group relative transition-all duration-500 hover:shadow-emerald-900/20">
+            <div className="rounded-3xl overflow-hidden shadow-2xl border border-[#054062]/20 group relative transition-all duration-500 hover:shadow-[#054062]/20">
               <SafeImage
                 src={MAP_IMAGES.overviewBanner}
                 alt="Phối cảnh Khu đô thị ARA"
@@ -119,18 +128,18 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
         </div>
 
         {/* Project Specifications Table with Interactive Hover & Color Shift (No construction density) */}
-        <div className="bg-white rounded-3xl shadow-sm border border-slate-200/80 p-6 sm:p-8 mb-16">
+        <div className="bg-white rounded-3xl shadow-sm border border-slate-200 p-6 sm:p-8 mb-16">
           <div className="flex items-center justify-between border-b border-slate-100 pb-4 mb-6">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-emerald-50 text-emerald-700 flex items-center justify-center">
-                <Building2 className="w-5 h-5" />
+              <div className="w-10 h-10 rounded-xl bg-[#e6f0f5] text-[#054062] flex items-center justify-center">
+                <Building2 className="w-5 h-5 text-[#054062]" />
               </div>
               <div>
-                <h3 className="text-lg font-bold text-slate-900">Thông Số Kỹ Thuật Dự Án</h3>
-                <p className="text-xs text-slate-500">Cập nhật theo hồ sơ phê duyệt quy hoạch chính thức</p>
+                <h3 className="text-lg font-bold text-[#054062]">Thông Số Kỹ Thuật Dự Án</h3>
+                <p className="text-xs text-[#595959]">Cập nhật theo hồ sơ phê duyệt quy hoạch chính thức</p>
               </div>
             </div>
-            <span className="text-xs font-semibold text-emerald-700 bg-emerald-50 px-3 py-1 rounded-md">
+            <span className="text-xs font-semibold text-[#054062] bg-[#e6f0f5] border border-[#054062]/20 px-3 py-1 rounded-full">
               Hạ tầng hoàn thiện
             </span>
           </div>
@@ -139,16 +148,16 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
             {specs.map((item, index) => (
               <div
                 key={index}
-                className={`flex flex-col sm:flex-row sm:items-center justify-between py-3 px-4 rounded-xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:bg-emerald-100/90 hover:border-emerald-400 cursor-pointer ${
+                className={`flex flex-col sm:flex-row sm:items-center justify-between py-3 px-4 rounded-xl border transition-all duration-300 hover:-translate-y-1 hover:shadow-md hover:bg-[#e6f0f5] hover:border-[#054062] cursor-pointer ${
                   index % 2 === 0
-                    ? 'bg-emerald-50/60 border-emerald-100/80'
-                    : 'bg-stone-50/80 border-stone-200/70'
+                    ? 'bg-[#f8f9fa] border-slate-200/80'
+                    : 'bg-white border-slate-200/60'
                 }`}
               >
-                <span className="text-xs sm:text-sm font-medium text-slate-600">{item.label}</span>
+                <span className="text-xs sm:text-sm font-medium text-[#595959]">{item.label}</span>
                 <span
-                  className={`text-xs sm:text-sm font-semibold text-slate-900 mt-1 sm:mt-0 text-left sm:text-right ${
-                    item.highlight ? 'text-emerald-800 font-bold' : ''
+                  className={`text-xs sm:text-sm font-semibold text-[#212529] mt-1 sm:mt-0 text-left sm:text-right ${
+                    item.highlight ? 'text-[#054062] font-bold' : ''
                   }`}
                 >
                   {item.value}
@@ -158,53 +167,65 @@ export const Overview: React.FC<OverviewProps> = ({ onOpenConsultModal, onOpenIm
           </div>
         </div>
 
-        {/* 4 Lý do nên đầu tư vào Khu Đô Thị ARA (Icons + Color themes, NO "Ưu thế" badge) */}
-        <div>
-          <div className="max-w-2xl mx-auto text-center mb-10">
-            <h3 className="text-xl sm:text-2xl font-bold text-slate-900 font-serif">
-              4 Lý Do Vàng Nên Sở Hữu & Đầu Tư Khu Đô Thị ARA
-            </h3>
-            <p className="text-xs sm:text-sm text-slate-500 mt-2">
-              Sự hội tụ trọn vẹn giữa giá trị an cư đích thực và khả năng sinh lời bền vững
-            </p>
+        {/* 4 Lý do nên đầu tư vào Khu Đô Thị ARA với nền ảnh 2.jpg */}
+        <div className="relative rounded-3xl overflow-hidden p-6 sm:p-10 border border-slate-200 shadow-xl">
+          {/* Background Image: 2_6f19e2e9.jpg (2.jpg) */}
+          <div className="absolute inset-0 z-0 pointer-events-none">
+            <img
+              src="/assets/aistudio/2.jpg"
+              alt="4 Lý Do Vàng Geometric Background"
+              className="w-full h-full object-cover opacity-85"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-white/70 via-white/50 to-white/70 backdrop-blur-[1px]"></div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {CORE_PILLARS.map((pillar, idx) => {
-              const IconComp = pillarIcons[idx] || Sparkles;
-              const style = pillarStyles[idx];
+          <div className="relative z-10">
+            <div className="max-w-2xl mx-auto text-center mb-10">
+              <h3 className="text-xl sm:text-2xl font-bold text-[#054062] font-serif">
+                4 Lý Do Vàng Nên Sở Hữu & Đầu Tư Khu Đô Thị ARA
+              </h3>
+              <p className="text-xs sm:text-sm text-[#595959] mt-2">
+                Sự hội tụ trọn vẹn giữa giá trị an cư đích thực và khả năng sinh lời bền vững
+              </p>
+            </div>
 
-              return (
-                <div
-                  key={pillar.index}
-                  className={`bg-white rounded-2xl p-6 border border-slate-200/90 shadow-sm hover:shadow-xl hover:-translate-y-2 bg-gradient-to-br ${style.hoverBg} transition-all duration-300 flex flex-col justify-between group cursor-pointer`}
-                >
-                  <div>
-                    <div className="flex items-center justify-between mb-4">
-                      <span className="text-2xl font-extrabold text-emerald-800 font-serif tabular-nums group-hover:scale-110 transition-transform">
-                        {pillar.index}
-                      </span>
-                      <div className={`w-10 h-10 rounded-xl ${style.iconBg} flex items-center justify-center shadow-xs group-hover:scale-110 transition-all duration-300`}>
-                        <IconComp className="w-5 h-5" />
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+              {CORE_PILLARS.map((pillar, idx) => {
+                const IconComp = pillarIcons[idx] || Sparkles;
+                const style = pillarStyles[idx];
+
+                return (
+                  <div
+                    key={pillar.index}
+                    className={`bg-white/95 backdrop-blur-md rounded-2xl p-6 border border-slate-200 shadow-md hover:shadow-2xl hover:-translate-y-2 ${style.hoverBg} transition-all duration-300 flex flex-col justify-between group cursor-pointer`}
+                  >
+                    <div>
+                      <div className="flex items-center justify-between mb-4">
+                        <span className="text-2xl font-extrabold text-[#054062] font-serif tabular-nums group-hover:text-[#d59732] group-hover:scale-110 transition-transform">
+                          {pillar.index}
+                        </span>
+                        <div className={`w-10 h-10 rounded-xl ${style.iconBg} flex items-center justify-center shadow-xs transition-all duration-300`}>
+                          <IconComp className="w-5 h-5" />
+                        </div>
                       </div>
+
+                      <h4 className="text-base font-bold text-[#212529] group-hover:text-[#054062] transition-colors mb-2">
+                        {pillar.title}
+                      </h4>
+
+                      <p className="text-xs sm:text-sm text-[#595959] leading-relaxed">
+                        {pillar.desc}
+                      </p>
                     </div>
 
-                    <h4 className="text-base font-bold text-slate-900 group-hover:text-emerald-900 transition-colors mb-2">
-                      {pillar.title}
-                    </h4>
-
-                    <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-                      {pillar.desc}
-                    </p>
+                    <div className="pt-4 mt-4 border-t border-slate-100 flex items-center gap-1.5 text-xs font-semibold text-[#054062]">
+                      <CheckCircle2 className="w-4 h-4 text-[#d59732] shrink-0" />
+                      <span>{pillar.highlight}</span>
+                    </div>
                   </div>
-
-                  <div className="pt-4 mt-4 border-t border-slate-100 flex items-center gap-1.5 text-xs font-semibold text-emerald-700">
-                    <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                    <span>{pillar.highlight}</span>
-                  </div>
-                </div>
-              );
-            })}
+                );
+              })}
+            </div>
           </div>
         </div>
       </div>

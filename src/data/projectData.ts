@@ -10,7 +10,9 @@ import locationMapImg from '../assets/images/regenerated_image_1793264392013.png
 import amenitiesMapImg from '../assets/images/regenerated_image_1793264397652.png';
 import progress1Img from '../assets/images/regenerated_image_1793264401316.jpg';
 import progress2Img from '../assets/images/regenerated_image_1793264407546.jpg';
+import progress3Img from '../assets/images/regenerated_image_1794292410330.jpg';
 import progress4Img from '../assets/images/regenerated_image_1793264411827.jpg';
+import progress5Img from '../assets/images/regenerated_image_1794292413388.jpg';
 import progress6Img from '../assets/images/regenerated_image_1793264414471.jpg';
 
 export interface GalleryItem {
@@ -32,7 +34,7 @@ export interface AmenityItem {
 export const PROJECT_DETAILS = {
   name: 'Khu đô thị ARA',
   legalName: 'Khu nhà ở Bình Minh',
-  slogan: 'Khu Đô Thị Sinh Thái – Kiến Tạo Giá Trị Sống Mới',
+  slogan: 'Khu Đô Thị Sinh Thái – Kiến Tạo Giá Trị Sống',
   tagline: 'Không gian sống xanh lý tưởng với quy hoạch bài bản, hạ tầng đồng bộ và tiềm năng tăng trưởng bền vững',
   developer: 'Công ty TNHH Tư Vấn Đầu Tư & Phát Triển Địa Ốc Bình Minh',
   location: 'TP. Hồ Chí Minh',
@@ -236,7 +238,7 @@ export const ACTUAL_PROGRESS_PHOTOS = [
   },
   {
     id: 'actual-3',
-    url: 'https://diaocachau.com.vn/media/uploads/uploads/1785985331877-1555873565258844850-g46859.jpg',
+    url: progress3Img,
     title: 'Hệ thống ngầm hóa điện nước & trụ chiếu sáng',
     desc: 'Hạ tầng kỹ thuật điện âm và hệ thống cấp thoát nước tiêu chuẩn cao đã hoàn thành.',
   },
@@ -248,7 +250,7 @@ export const ACTUAL_PROGRESS_PHOTOS = [
   },
   {
     id: 'actual-5',
-    url: 'https://diaocachau.com.vn/media/uploads/uploads/z8023566034227-256fd23a2eb27e4cf6458a826.jpg',
+    url: progress5Img,
     title: 'Tiến độ thi công các dãy nhà thực tế',
     desc: 'Công nhân và máy móc thi công khẩn trương đảm bảo tiến độ bàn giao đúng cam kết.',
   },

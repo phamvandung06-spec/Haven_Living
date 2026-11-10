@@ -56,7 +56,7 @@ export const ImageModal: React.FC<ImageModalProps> = ({
           <button
             type="button"
             onClick={() => setScale((s) => Math.min(s + 0.3, 3))}
-            className="p-1.5 hover:text-emerald-400 transition-colors"
+            className="p-1.5 hover:text-[#d59732] transition-colors"
             title="Phóng to"
           >
             <ZoomIn className="w-4 h-4" />
@@ -64,7 +64,7 @@ export const ImageModal: React.FC<ImageModalProps> = ({
           <button
             type="button"
             onClick={() => setScale((s) => Math.max(s - 0.3, 0.7))}
-            className="p-1.5 hover:text-emerald-400 transition-colors"
+            className="p-1.5 hover:text-[#d59732] transition-colors"
             title="Thu nhỏ"
           >
             <ZoomOut className="w-4 h-4" />
@@ -72,7 +72,7 @@ export const ImageModal: React.FC<ImageModalProps> = ({
           <button
             type="button"
             onClick={() => setScale(1)}
-            className="p-1.5 hover:text-emerald-400 transition-colors text-xs font-mono"
+            className="p-1.5 hover:text-[#d59732] transition-colors text-xs font-mono"
             title="Đặt lại"
           >
             <RotateCcw className="w-4 h-4" />

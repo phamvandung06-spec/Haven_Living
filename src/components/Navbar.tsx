@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Phone, Menu, X, ArrowUpRight } from 'lucide-react';
+import { Phone, Menu, X } from 'lucide-react';
 import { PROJECT_DETAILS } from '../data/projectData';
 
 interface NavbarProps {
@@ -32,8 +32,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultModal }) => {
     <header
       className={`fixed top-0 left-0 right-0 z-40 transition-all duration-300 ${
         isScrolled
-          ? 'bg-emerald-950/92 backdrop-blur-md shadow-lg shadow-emerald-950/20 py-3 border-b border-emerald-800/40 text-white'
-          : 'bg-gradient-to-b from-emerald-950/75 via-emerald-950/30 to-transparent py-4 text-white'
+          ? 'bg-white/95 backdrop-blur-md shadow-md shadow-slate-900/5 py-3 border-b border-slate-200 text-[#054062]'
+          : 'bg-gradient-to-b from-[#002f52]/90 via-[#002f52]/40 to-transparent py-4 text-white'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -53,52 +53,46 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultModal }) => {
           </a>
 
           {/* Zone 2: Single-line clean text nav links */}
-          <nav className="hidden lg:flex items-center gap-7 text-sm font-medium">
+          <nav className="hidden lg:flex items-center gap-7 text-sm font-semibold">
             {navLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
-                className="text-stone-200 hover:text-emerald-400 transition-colors whitespace-nowrap shrink-0 hover:underline underline-offset-8"
+                className={`transition-colors whitespace-nowrap shrink-0 hover:text-[#d59732] hover:underline underline-offset-8 decoration-2 decoration-[#d59732] ${
+                  isScrolled ? 'text-[#054062]' : 'text-stone-100'
+                }`}
               >
                 {link.label}
               </a>
             ))}
           </nav>
 
-          {/* Zone 3: 1 Primary Action + Quick Call */}
-          <div className="hidden sm:flex items-center gap-4 shrink-0">
+          {/* Zone 3: Hotline CTA Button */}
+          <div className="hidden sm:flex items-center gap-3 shrink-0">
             <a
               href={`tel:${PROJECT_DETAILS.hotline.replace(/\s+/g, '')}`}
-              className="flex items-center gap-1.5 text-xs font-semibold text-emerald-300 hover:text-emerald-200 transition-colors whitespace-nowrap shrink-0"
-              title="Gọi hotline tư vấn trực tiếp"
+              className="inline-flex items-center gap-2 px-5 py-2 text-xs font-bold text-white bg-gradient-to-r from-[#d59732] via-[#efa937] to-[#d59732] hover:brightness-110 rounded-full transition-all shadow-md shadow-[#d59732]/30 hover:shadow-[#d59732]/50 whitespace-nowrap shrink-0 cursor-pointer"
+              title="Gọi Hotline tư vấn trực tiếp"
             >
-              <Phone className="w-3.5 h-3.5 text-emerald-400" />
-              <span>{PROJECT_DETAILS.hotlineDisplay}</span>
+              <Phone className="w-3.5 h-3.5 animate-pulse text-white" />
+              <span>Hotline: {PROJECT_DETAILS.hotlineDisplay}</span>
             </a>
-
-            <button
-              type="button"
-              onClick={onOpenConsultModal}
-              className="inline-flex items-center gap-1.5 px-4 py-2 text-xs font-bold text-white bg-emerald-600 hover:bg-emerald-500 rounded-lg transition-all shadow-md shadow-emerald-950/40 hover:shadow-emerald-600/30 whitespace-nowrap shrink-0 cursor-pointer"
-            >
-              <span>Nhận Báo Giá</span>
-              <ArrowUpRight className="w-3.5 h-3.5" />
-            </button>
           </div>
 
-          {/* Mobile hamburger toggle */}
+          {/* Mobile hamburger toggle & Hotline */}
           <div className="flex sm:hidden items-center gap-2">
-            <button
-              type="button"
-              onClick={onOpenConsultModal}
-              className="px-2.5 py-1.5 text-xs font-semibold bg-emerald-600 text-white rounded-md whitespace-nowrap"
+            <a
+              href={`tel:${PROJECT_DETAILS.hotline.replace(/\s+/g, '')}`}
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold bg-gradient-to-r from-[#d59732] to-[#efa937] text-white rounded-full whitespace-nowrap shadow-sm"
+              title="Gọi Hotline"
             >
-              Báo Giá
-            </button>
+              <Phone className="w-3 h-3" />
+              <span>Hotline</span>
+            </a>
             <button
               type="button"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 text-white hover:text-emerald-300"
+              className={`p-2 transition-colors ${isScrolled ? 'text-[#054062] hover:text-[#d59732]' : 'text-white hover:text-[#f9df7b]'}`}
               aria-label="Mở menu"
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -109,14 +103,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultModal }) => {
 
       {/* Mobile Drawer */}
       {mobileMenuOpen && (
-        <div className="lg:hidden bg-emerald-950/98 backdrop-blur-xl border-b border-emerald-800/60 px-6 py-5 mt-2 transition-all">
-          <nav className="flex flex-col gap-3 text-sm font-medium">
+        <div className="lg:hidden bg-[#002f52] backdrop-blur-xl border-b border-[#054062] px-6 py-5 mt-2 transition-all shadow-2xl">
+          <nav className="flex flex-col gap-3 text-sm font-semibold">
             {navLinks.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className="text-stone-200 hover:text-emerald-400 py-1.5 border-b border-emerald-900/50"
+                className="text-stone-100 hover:text-[#f9df7b] py-2 border-b border-[#054062]/60"
               >
                 {link.label}
               </a>
@@ -124,21 +118,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenConsultModal }) => {
             <div className="pt-3 flex flex-col gap-3">
               <a
                 href={`tel:${PROJECT_DETAILS.hotline.replace(/\s+/g, '')}`}
-                className="flex items-center justify-center gap-2 py-2 text-sm font-bold text-emerald-400 bg-emerald-900/40 rounded-lg"
+                onClick={() => setMobileMenuOpen(false)}
+                className="flex items-center justify-center gap-2 py-3 text-sm font-bold text-white bg-gradient-to-r from-[#d59732] via-[#efa937] to-[#d59732] rounded-full shadow-lg shadow-[#d59732]/30"
               >
-                <Phone className="w-4 h-4" />
-                <span>Hotline: {PROJECT_DETAILS.hotlineDisplay}</span>
+                <Phone className="w-4 h-4 animate-pulse text-white" />
+                <span>Hotline Tư Vấn: {PROJECT_DETAILS.hotlineDisplay}</span>
               </a>
-              <button
-                type="button"
-                onClick={() => {
-                  setMobileMenuOpen(false);
-                  onOpenConsultModal();
-                }}
-                className="w-full py-2.5 text-center text-sm font-bold text-white bg-emerald-600 rounded-lg"
-              >
-                Đăng Ký Tư Vấn & Báo Giá
-              </button>
             </div>
           </nav>
         </div>
