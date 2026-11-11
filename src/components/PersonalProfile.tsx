@@ -49,7 +49,7 @@ export const PersonalProfile: React.FC<PersonalProfileProps> = ({ onOpenConsultM
                 <div className="relative z-10 w-full flex justify-center">
                   <img
                     src="/assets/aistudio/dung_cutout_clean.png"
-                    alt="Phạm Văn Dũng - Phó Phòng Kinh Doanh Địa Ốc Á Châu"
+                    alt="Phạm Văn Dũng - Phó Phòng Kinh Doanh Khu đô thị ARA"
                     className="w-full max-w-[340px] sm:max-w-[400px] h-auto object-contain filter drop-shadow-[0_20px_35px_rgba(0,0,0,0.65)] hover:scale-102 transition-transform duration-500"
                   />
 
@@ -83,7 +83,7 @@ export const PersonalProfile: React.FC<PersonalProfileProps> = ({ onOpenConsultM
                 </h1>
                 <p className="text-base sm:text-lg text-[#f9df7b] font-semibold mt-2 flex items-center gap-2">
                   <span className="w-6 h-0.5 bg-[#d59732]"></span>
-                  <span>Phó Phòng Kinh Doanh – Địa ốc Á Châu</span>
+                  <span>Phó Phòng Kinh Doanh – Khu đô thị ARA</span>
                 </p>
               </div>
 
